@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <title>Hello, world!</title>
+    <title>Casey Pitman | Web Developer</title>
     <!--Google Analytics-->
 
     <link rel="manifest" href="site.webmanifest">
@@ -14,13 +14,52 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="css/main.css">
     <meta name="theme-color" content="#fafafa">
   </head>
   <body>
-    <nav id="navigation">Nav</nav>
+    <nav id="navigation" class="navbar navbar-expand-md fixed-top bg-dark navbar-dark">
+      <!--Brand-->
+      <a class="navbar-brand" href="#">Logo</a>
 
-    <div id="jumbo-home">Jumbo</div>
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsible-navbar">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!--Navbar Links-->
+      <div class="collapse navbar-collapse flex-row-reverse" id="collapsible-navbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#about-me" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#my-skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#work-samples" class="nav-link">Work</a>
+          </li>
+          <li class="nav-item">
+            <a href="#footer" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="jumbo-home" class="jumbotron jumbotron-fluid">
+      <div class="container-fluid mt-5" id="jumbo-container">
+        <h1 id="jumbo-head-1">
+          Hi there. 
+        </h1>
+        <h1 id="jumbo-head-2">
+          My name is Casey. 
+        </h1>
+        <h1 id="jumbo-head-3">
+          Let's create something special.
+        </h1>
+      </div>
+    </div>
 
     <div id="main-content-container">Main Content
 
