@@ -24,15 +24,17 @@ p{
 }
 
 
-
 /* HOME */
 
-/* navbar */
+/* navbar */        /*navbar height is 46.25*/
 .close-bar{
     font-size:2rem;
     margin-left:10px;
 }
 
+#collapsible-navbar {
+    margin-right:10px;
+}
 
 
 /* jumbo */
@@ -54,30 +56,29 @@ p{
 
 /* about */
 #about-me {
-  
-    height:100vh;
+    height:auto;
+    min-height:700px;
+    /*padding-top: 46.25px;
+    margin-top: -46.25px;*/
 }
 
+
 #casey-portrait{
-    max-width:250px;
+    max-width:200px;
     height:100%;
     border:1px solid black;
     padding:0;
 }
 
-#testdiv{
-    background:red;
-}
-
 /* skills */
 #my-skills {
-    background-color:lightblue;
+
     height:100vh;
 }
 
 /* work */
 #work-samples{
-    background-color:lightsalmon;
+
     height:100vh;
 }
 
@@ -97,4 +98,8 @@ p{
 
 
 
+
+
+
+/* MOBILE STYLES */
 
