@@ -3,11 +3,11 @@ html{
     font-size:10px;
 }
 body{
-    background-color:whitesmoke;
+    background-color:#fff;
 }
 
-h1,h2,h3,h4,h5,h6,p,a {
- font-family: 'Roboto', sans-serif;;
+h1,h2,h3,h4,h5,h6,p,a,li {
+ font-family: 'Roboto', sans-serif;
 }
 
 h1{
@@ -17,6 +17,10 @@ h1{
 h2 {
     font-size:3.6rem;
     font-weight: 300;
+}
+
+h3 {
+    font-size:3.2rem;
 }
 
 p{
@@ -62,7 +66,6 @@ p{
     margin-top: -46.25px;*/
 }
 
-
 #casey-portrait{
     max-width:200px;
     height:100%;
@@ -72,13 +75,33 @@ p{
 
 /* skills */
 #my-skills {
-
-    height:100vh;
+    /* background-color:palegoldenrod;*/
+    border-top: 1px solid black;
+    height:auto;
+    min-height:700px;
 }
+
+.skill-div{
+    background-color:rgba(23,23,23,0.8);
+    color:white;
+}
+
+.skill-group-head{
+    font-weight:700;
+}
+
+.list-group-item {
+    font-size:2rem; 
+    border:none;
+    background:transparent;
+    font-weight:100;
+}
+
+
+
 
 /* work */
 #work-samples{
-
     height:100vh;
 }
 
