@@ -12,6 +12,9 @@
     <link rel="apple-touch-icon" href="icon.png">
     <!-- Place favicon.ico in the root directory -->
 
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     
@@ -21,7 +24,7 @@
   <body>
     <nav id="navigation" class="navbar navbar-expand-md fixed-top bg-dark navbar-dark">
       <!--Brand-->
-      <a class="navbar-brand" href="#">Logo</a>
+      <a class="navbar-brand close-bar" href="#">Logo</a>
 
       <!-- Toggler/collapsibe Button -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsible-navbar">
@@ -32,16 +35,16 @@
       <div class="collapse navbar-collapse flex-row-reverse" id="collapsible-navbar">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a href="#about-me" class="nav-link">About</a>
+            <a href="#about-me" class="nav-link close-bar">About</a>
           </li>
           <li class="nav-item">
-            <a href="#my-skills" class="nav-link">Skills</a>
+            <a href="#my-skills" class="nav-link close-bar">Skills</a>
           </li>
           <li class="nav-item">
-            <a href="#work-samples" class="nav-link">Work</a>
+            <a href="#work-samples" class="nav-link close-bar">Work</a>
           </li>
           <li class="nav-item">
-            <a href="#footer" class="nav-link">Contact</a>
+            <a href="#footer" class="nav-link close-bar">Contact</a>
           </li>
         </ul>
       </div>
@@ -53,18 +56,25 @@
           Hi there. 
         </h1>
         <h1 id="jumbo-head-2">
-          My name is Casey. 
-        </h1>
-        <h1 id="jumbo-head-3">
-          Let's create something special.
+          My name is Casey Pitman. 
         </h1>
       </div>
     </div>
 
-    <div id="main-content-container">Main Content
+    <div id="main-content-container">
 
-      <div id="about-me">
-        About Me Section include pic?
+      <div id="about-me" class="container-fluid d-flex">
+        
+        <div class="col-md-8 mx-auto align-self-center">
+          <h2 class="mb-md-3 mb-5">About Me</h2>
+          <div class="row">
+            <img id="casey-portrait" class="img-fluid col-lg d-block mx-auto order-lg-2 rounded-circle" src="img/me-small.jpg" alt="Casey standing in front of some funky art wearing a cool hat.">
+            <p class="col-lg order-lg-1 mx-auto mt-5 pr-md-5 text-justify" id="about-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+
       </div>
 
       <div id="my-skills">

@@ -1,44 +1,76 @@
 /* GLOBAL */
+body{
+    background-color:whitesmoke;
+    font-size:10px;
+}
 
+h1,h2,h3,h4,h5,h6,p,a {
+ font-family: 'Roboto', sans-serif;;
+}
 
+h1{
+    font-size:4rem;
+}
+
+h2 {
+    font-weight: 300;
+}
 
 /* HOME */
 
 /* navbar */
 
-
-
 /* jumbo */
 #jumbo-home{
     background: linear-gradient(
-        rgba(46, 139, 87,0.90), 
-        rgba(46, 139, 87,0.90)
+        rgba(46, 139, 87, 0.95), 
+        rgba(46, 139, 87, 0.95)
       ),
-      url("../img/jumbo-3.png");
+      url("../img/code-bg.jpg");
     background-size:cover;
     background-repeat:no-repeat;
     height:100vh;
+    margin:0px;
 }
 
 #jumbo-container{
   color:white;
 }
 
-
 /* about */
+#about-me {
+  
+    height:100vh;
+}
 
+#casey-portrait{
+    max-width:250px;
+    height:100%;
+    border:1px solid black;
+    padding:0;
+}
 
+#testdiv{
+    background:red;
+}
 
 /* skills */
-
-
+#my-skills {
+    background-color:lightblue;
+    height:100vh;
+}
 
 /* work */
-
-
+#work-samples{
+    background-color:lightsalmon;
+    height:100vh;
+}
 
 /* footer */
-
+#footer {
+    background-color:lavender;
+    height:50vh;
+}
 
 /* WORK SAMPLE PAGE */
 

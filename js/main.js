@@ -2,9 +2,11 @@
 $(document).ready(function(){
     //Collapse menu bar after click on mobile
 
-    $(".nav-link").on("click", function(){
+    $(".close-bar").on("click", function(){
         $(".navbar-collapse").collapse("hide");
     });
+
+
 
 
 
