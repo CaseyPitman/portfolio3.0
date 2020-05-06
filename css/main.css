@@ -111,11 +111,10 @@ p{
     font-size:5rem;
 }
 .skill-div{
-    background-color:rgba(226,54,54);
+    background:rgba(226,54,54);
     color:white;
+    
 }
-
-
 
 .skill-group-head{
     font-weight:700;
