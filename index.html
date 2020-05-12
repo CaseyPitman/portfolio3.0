@@ -21,13 +21,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/styles.css">
     <meta name="theme-color" content="#fafafa">
   </head>
   <body>
     <nav id="navigation" class="navbar navbar-expand-md fixed-top">
       <!--Brand-->
-      <a class="navbar-brand close-bar" href="#">HOME</a>
+      <a class="navbar-brand close-bar" id="brand" href="#">Casey Pitman | Web Developer</a>
 
       <!-- Toggler/collapsibe Button -->
       <button class="navbar-toggler close-bar" type="button" data-toggle="collapse" data-target="#collapsible-navbar">
@@ -44,7 +44,7 @@
             <a href="#my-skills" class="nav-link close-bar">SKILLS</a>
           </li>
           <li class="nav-item">
-            <a href="#work-samples" class="nav-link close-bar">WORK</a>
+            <a href="#projects" class="nav-link close-bar">PROJECTS</a>
           </li>
           <li class="nav-item">
             <a href="#footer" class="nav-link close-bar">CONTACT</a>
@@ -65,11 +65,10 @@
     </div>
 
     <div id="main-content-container">
-
       <div id="about-me" class="container-fluid d-flex">
         <div class="col-md-10 mx-auto my-5 py-5 align-self-center">
           <div id="about-section-head">
-            <h2 class=" my-5 display-2" id="about-head-text"><i class="far fa-address-card" id="fa-about"></i> | About</h2>
+            <h2 class="my-1 display-2" id="about-head-text"><i class="far fa-address-card red-icon"></i> | About</h2>
           </div>
           <div class="row">
             <img id="casey-portrait" class="img-fluid col-lg d-block mx-auto my-5 my-lg-auto order-lg-2 rounded-circle" src="img/me-small.jpg" alt="Casey standing in front of some funky art wearing a cool hat.">
@@ -87,7 +86,7 @@
       <div id="my-skills" class="container-fluid d-flex">
         <div class="col-md-10 mx-auto my-5 py-5 align-self-center">
           <div id="skills-section-head">
-            <h2 class="my-5 display-2" id="skills-head-text"><i class="fas fa-laptop-code" id="fa-skills"></i> | Skills</h2>
+            <h2 class="my-5 display-2" id="skills-head-text"><i class="fas fa-laptop-code red-icon"></i> | Skills</h2>
           </div>
           <div id="skill-text" class="text-justify">
             <p>
@@ -99,7 +98,7 @@
             </p>
           </div>
           <div class="row mx-auto" id="skills-list">
-            <div class="col-lg mx-auto my-5 ml-lg-0 py-5 mr-lg-5 skill-div text-center rounded w-75" id="using-div">
+            <div class="col-lg mx-auto my-5 ml-lg-0 py-5 mr-lg-5 skill-div text-center rounded" id="using-div">
               <h3 class="skill-group-head">I'm Using</h3>
               <ul class="list-group">
                 <li class="list-group-item">HTML5</li>
@@ -110,42 +109,253 @@
                 <li class="list-group-item">Git/Github</li>
               </ul>
             </div>
-            <div class="col-lg mx-auto my-5 mx-lg-5 py-5 skill-div text-center rounded w-75" id="learning-div">
+            <div class="col-lg mx-auto my-5 mx-lg-5 py-5 skill-div text-center rounded" id="learning-div">
               <h3 class="skill-group-head">I'm Learning</h3>
+              <br>
+              <br>
               <ul class="list-group">
                 <li class="list-group-item">React</li>
                 <li class="list-group-item">Sass</li>
+                <li class="list-group-item">APIs</li>
               </ul>
             </div>
-            <div class="col-lg mx-auto my-5 ml-lg-5 mr-lg-0 py-5 skill-div text-center rounded w-75" id="want-div">
+            <div class="col-lg mx-auto my-5 ml-lg-5 mr-lg-0 py-5 skill-div text-center rounded" id="want-div">
               <h3 class="skill-group-head"> I Want to Learn</h3>
+              <br>
+              <br>
               <ul class="list-group">
                 <li class="list-group-item">Node.js</li>
+                <li class="list-group-item">Vue.js</li>
+                <li class="list-group-item">Angular</li>
                 <li class="list-group-item">MongoDB</li>
-                <li class="list-group-item">Python</li>
+                <li class="list-group-item">Python</li>               
               </ul>
             </div>
           </div>
         </div> 
       </div>
 
-      <div id="work-samples">
-        Work samples go here - some sort of imagery
-        <div id="sites-samples">
-          Sites I've made.
+      <div id="projects" class="container-fluid">
+        <div class="col-md-10 mx-auto mt-5 pt-5">
+        <div id="project-section-head" class="my-5">
+          <h2 class="display-2" id="project-head-text"><i class="fas fa-desktop red-icon"></i> | Projects</h2>
         </div>
-        <div id="web-apps-samples">
-          Js Web apps
+        <div id="skill-text" class="text-justify">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+              voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+              non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+
+          <div id="sites-samples" class="my-5 py-5">
+            <h3 class="display-4 work-sample-section-head">Websites</h3>
+
+            <div class="row d-flex justify-content-between mx-auto">
+              <div class="card col-md-5 work-sample-card my-5">
+                <img src="img/placeholder-work-sample.png" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-wrap">
+                  <h4 class="card-title">Sugar & Spice Catering</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="text-center work-sample-links align-self-end w-100">
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the app</a>
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the code</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card col-md-5 work-sample-card my-5">
+                <img src="img/placeholder-work-sample.png" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-wrap">
+                  <h4 class="card-title">Purposefully Adrift</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="text-center work-sample-links align-self-end w-100">
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the app</a>
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row d-flex justify-content-between mx-auto">
+              <div class="card col-md-5 work-sample-card my-5">
+                <img src="img/placeholder-work-sample.png" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-wrap">
+                  <h4 class="card-title">Documentation</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="text-center work-sample-links align-self-end w-100">
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the app</a>
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the code</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card col-md-5 work-sample-card my-5">
+                <img src="img/placeholder-work-sample.png" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-wrap">
+                  <h4 class="card-title">Survey</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="text-center work-sample-links align-self-end w-100">
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the app</a>
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row d-flex justify-content-between mx-auto">
+              <div class="card col-md-5 work-sample-card my-5">
+                <img src="img/placeholder-work-sample.png" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-wrap">
+                  <h4 class="card-title">Portfolio Site</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="text-center work-sample-links align-self-end w-100">
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the app</a>
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the code</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card col-md-5 work-sample-card my-5">
+                <img src="img/placeholder-work-sample.png" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-wrap">
+                  <h4 class="card-title">Rogue Pickings</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="text-center work-sample-links align-self-end w-100">
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the app</a>
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div id="web-apps-samples" class="my-5 py-5">
+            <h3 class="display-4 work-sample-section-head">Web Apps</h3>
+            <div class="row d-flex justify-content-between mx-auto">
+              
+              <div class="card col-md-5 col-lg-3 mx-lg-1 work-sample-card my-5">
+                <img src="img/placeholder-work-sample.png" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-wrap">
+                  <h4 class="card-title">Weather With Galactus</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="text-center work-sample-links align-self-end w-100">
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the app</a>
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the code</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card col-md-5 col-lg-3 mx-lg-1 work-sample-card my-5">
+                <img src="img/placeholder-work-sample.png" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-wrap">
+                  <h4 class="card-title">Choicebot</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="text-center work-sample-links align-self-end w-100">
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the app</a>
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the code</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card col-md-5 col-lg-3 mx-lg-1 work-sample-card my-5">
+                <img src="img/placeholder-work-sample.png" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-wrap">
+                  <h4 class="card-title">Rock, Paper, Scissors</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="text-center work-sample-links align-self-end w-100">
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the app</a>
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the code</a>
+                  </div>
+                </div>
+              </div>
+           
+              <div class="card col-md-5 col-lg-3 mx-lg-1 work-sample-card my-5">
+                <img src="img/placeholder-work-sample.png" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-wrap">
+                  <h4 class="card-title">Pokédex</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="text-center work-sample-links align-self-end w-100">
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the app</a>
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the code</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card col-md-5 col-lg-3 mx-lg-1 work-sample-card my-5">
+                <img src="img/placeholder-work-sample.png" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-wrap">
+                  <h4 class="card-title">HEX/RGB Color Converter</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="text-center work-sample-links align-self-end w-100">
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the app</a>
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the code</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card col-md-5 col-lg-3 mx-lg-1 work-sample-card my-5">
+                <img src="img/placeholder-work-sample.png" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-wrap">
+                  <h4 class="card-title">Pythagorean Theorem</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="text-center work-sample-links align-self-end w-100">
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the app</a>
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the code</a>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="card col-md-5 col-lg-3 mx-lg-1 work-sample-card my-5">
+                <img src="img/placeholder-work-sample.png" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-wrap">
+                  <h4 class="card-title">Prime Numbers</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="text-center work-sample-links align-self-end w-100">
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the app</a>
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the code</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card col-md-5 col-lg-3 mx-lg-1 work-sample-card my-5">
+                <img src="img/placeholder-work-sample.png" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-wrap">
+                  <h4 class="card-title">Percent Calculator</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="text-center work-sample-links align-self-end w-100">
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the app</a>
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the code</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card col-md-5 col-lg-3 mx-lg-1 work-sample-card my-5">
+                <img src="img/placeholder-work-sample.png" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-wrap">
+                  <h4 class="card-title">Temperture Converter</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="text-center work-sample-links align-self-end w-100">
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the app</a>
+                    <a href="#" target="_blank" class="btn work-sample-link-btn mx-2">See the code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Display none for now-->
+          <div id="review" class="">
+            Review quote can go here. Eventually. 
+          </div>
         </div>
-        <div id="review">
-          Review quote can go here. Eventually. 
-        </div>
-      </div>
-     
-   
+      </div>   
+    </div> <!---End Main Content Container-->
 
     <div id="footer">
-      Footer goes here. 
+      <h1>Footer goes here. </h1>
       
       <div id="contact-info"> 
         Contact info - phone number, email
@@ -170,6 +380,6 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
