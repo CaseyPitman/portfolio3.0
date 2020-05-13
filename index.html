@@ -354,58 +354,50 @@
       </div>   
      
 
-      <div id="contact" class="container-fluid d-flex align-items-center">
-        <div class="col-md-10 mx-auto my-5 py-5">
-          <h1 class="text-center" id="footer-head">
+      <div id="contact" class="container-fluid my-5 d-flex align-items-center">
+        <div class="col-md-12 mx-auto my-5 py-5">
+          <h1 class="text-center my-5" id="contact-head">
             Let's talk.
           </h1>
-          <div class="row">
-          <div id="contact-info" class="col-md bg-warning"> 
-            <h2 class="footer-subhead">Email, call, or text me.</h2>
-            <a href="mailto:casey@caseypitman.com">casey@caseypitman.com</a>
-            <br>
-            <a href="tel:+1-202-798-1066">+1.202.798.1066</a>
-          </div>
-
-          <div id="contact-me" class="col-md bg-info">
-            <div id="contact-form-container">
-              <h2 class="footer-subhead">Send me a message.</h2>
-              <form id="contact-form" method="POST" action="https://formspree.io/xeqronjk">
-                <div class="form-group">
-                  <div>
-                    <label for="name" class="form-label">Name:</label>
-                    <br>
-                    <input type="name" id="name" name="name" class="form-control">
-                  </div>
-                  <div>
-                    <label for="email" class="form-label">Email:</label>
-                    <br>
-                    <input type="email" id="email" name="email" class="form-control">
-                  </div>
-                  <div>
-                    <label for="message" class="form-label">Message:</label>
-                    <br>
-                    <textarea id="message" class="form-control" name="message" rows=5></textarea>
-                  </div>
-                  <input type="hidden" name="_next" value="https://caseypitman.github.io/portfolio3.0/#contact"/>
-                  <button type="submit" id="submit-msg" class="btn btn-primary">Send</button>
-                </div>
-              </form>
-            </div><!--end contact form container-->
-              <div id="thanks">
-                <h1>Thanks!</h1>
-              </div>
-            </div><!--End form container-->
          
-          
-          <div id="social-media-contacts" class="col-md bg-success">
-            <h2 class="footer-subhead">Follow me.</h2>
-          </div>
+          <div id="contact-me" class="col-md-3 mx-auto">  
+            <form id="contact-form" method="POST" action="https://formspree.io/xeqronjk">
+              <div class="form-group">
+                <div>
+                  <label for="name" class="form-label">Name:</label>
+                  <input type="name" id="name" name="name" class="form-control form-control-lg" required>
+                </div>
+                <div class="my-3">
+                  <label for="email" class="form-label">Email:</label>
+                  <input type="email" id="email" name="email" class="form-control form-control-lg" required>
+                </div>
+                <div>
+                  <label for="message" class="form-label">Message:</label>
+                  <textarea id="message" class="form-control form-control-lg" name="message" rows=5></textarea>
+                </div>
+                <input type="hidden" name="_next" value="https://caseypitman.github.io/portfolio3.0/#contact" required>
+                <button type="submit" id="submit-btn" class="btn btn-block mt-4">Send</button>
+              </div>
+            </form>
+          </div><!--End form container-->
 
-          <div id="copyright-info" class="col-sm-12 bg-primary text-center">
-           <h4> copyright info </h4>
+          <div id="contact-info" class="bg-succes text-center my-5"> 
+           <h4> 
+              <a href="mailto:casey@caseypitman.com" class="contact-details mx-5">casey@caseypitman.com</a>
+              <br>
+              <a href="tel:+1-202-798-1066" class="contact-details mx-5">+1.202.798.1066</a></h4>
           </div>
-        </div>
+          <div id="social-media-info" class="text-center my-5 py-3">
+            <a href="https://www.linkedin.com/in/casey-pitman-133618195/" target="_blank"><i class="fab fa-linkedin soc-med-links mx-4 mx-md-5"></i></a>
+            <a href="https://github.com/CaseyPitman" target="_blank"><i class="fab fa-github-square soc-med-links mx-4 mx-md-5"></i></a>
+            <a href="https://twitter.com/caseypitman11" target="_blank"><i class="fab fa-twitter-square soc-med-links mx-4 mx-md-5"></i></a>
+          </div>
+  
+
+          <div id="copyright-info" class="col-sm-12 text-center my-5">
+           <p id="copyright" class="my-5">&copy;2020<br>Casey Pitman Web Development </p>
+          </div>
+        
       </div><!--End Contact Sect.-->
     </div><!---End Main Content Container-->
 

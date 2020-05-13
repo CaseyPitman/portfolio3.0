@@ -10,8 +10,10 @@ Black rgba(0,0,0)
 html{
     font-size:10px;
 }
+
 body{
     background-color:rgba(255,255,255);
+    font-family: 'Roboto', sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6,p,a,li {
@@ -19,7 +21,7 @@ h1,h2,h3,h4,h5,h6,p,a,li {
 }
 
 h1{
-    font-size:4rem;
+    font-size:7rem;
 }
 
 h2 {
@@ -29,6 +31,10 @@ h2 {
 
 h3 {
     font-size:3.2rem;
+}
+
+h4 {
+    font-size:2.0rem;
 }
 
 p{
@@ -80,6 +86,7 @@ p{
     background-repeat:no-repeat;
     height:100vh;
     margin:0px;
+    border-bottom:1px solid rgba(80,74,74);
 }
 
 #jumbo-container{
@@ -103,7 +110,6 @@ p{
 
 /* skills */
 #my-skills {
-    /* background-color:palegoldenrod;*/
     border-top: 1px solid black;
     height:auto;
     min-height:100vh;
@@ -151,23 +157,50 @@ p{
     font-weight:300;
 }
 
-
-
 #review {
     display:none;
 }
 
-/* footer */
+/* Contact */
 #contact {
-    background-color:rgba(80,74,74);
+    background: linear-gradient(
+        rgba(81,140,202, 0.90), 
+        rgba(81,140,202, 0.90)
+      ),
+      url("../img/code-bg.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
     min-height:100vh;
+    margin:0px;
     color:rgb(255, 255, 255);
+    border-top:1px solid rgba(80,74,74);
 }
 
-#thanks {
-    display:none;
+#contact-head{
+    font-size:7rem;
+    font-weight:300;
 }
 
+.form-label{
+    font-size:1.8rem;
+}
+
+.contact-details{
+     text-decoration:none;
+     color:rgb(255, 255, 255);
+     font-size: 2rem;
+}
+
+.soc-med-links{
+     color:rgb(255, 255, 255);
+     font-size:5rem;
+}
+
+#submit-btn{
+     background-color:rgba(226,54,54);
+     color:white;
+     font-size:1.8rem;
+}
 
 
 
