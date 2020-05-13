@@ -354,23 +354,50 @@
       </div>   
     </div> <!---End Main Content Container-->
 
-    <div id="footer">
-      <h1>Footer goes here. </h1>
-      
-      <div id="contact-info"> 
-        Contact info - phone number, email
-      </div>
+    <div id="footer" class="container-fluid">
+      <div class="col-md-10 mx-auto my-5 py-5">
+        <h1 class="text-center" id="footer-head">Let's talk.</h1>
+        <div class="row">
+          <div id="contact-info" class="col-md bg-warning"> 
+            <h2 class="footer-subhead">Email, call, or text me.</h2>
+            <a href="mailto:casey@caseypitman.com">casey@caseypitman.com</a>
+            <br>
+            <a href="tel:+1-202-798-1066">+1.202.798.1066</a>
+          </div>
 
-      <div id="social-media-contacts">
-        Social media contacts
-      </div>
+          <div id="contact-me" class="col-md bg-info">
+            <h2 class="footer-subhead">Send me a message.</h2>
+            <form action="https://formspree.io/xeqronjk" method="POST">
+              <div class="form-group">
+                <div>
+                  <label for="name" class="form-label">Name:</label>
+                  <br>
+                  <input type="name" id="name" name="name" class="form-control">
+                </div>
+                <div>
+                  <label for="email" class="form-label">Email:</label>
+                  <br>
+                  <input type="email" id="email" name="email" class="form-control">
+                </div>
+                <div>
+                  <label for="message" class="form-label">Message:</label>
+                  <br>
+                  <textarea id="message" class="form-control" name="message" rows=5></textarea>
+                </div>
+                <input type="hidden" name="_next" value="file:///Users/caseypitman/Desktop/portfolio3.0/index.html#footer"/>
+                <button type="submit" id="submit-msg" class="btn btn-primary">Send</button>
+              </div>
+            </form>
+          </div>
 
-      <div id="contact-me">
-        Link to Contact Form
-      </div>
+          <div id="social-media-contacts" class="col-md bg-success">
+            <h2 class="footer-subhead">Follow me.</h2>
+          </div>
 
-      <div id="copyright-info">
-        copyright info
+          <div id="copyright-info" class="col-sm-12 bg-primary text-center">
+           <h4> copyright info </h4>
+          </div>
+        </div>
       </div>
     </div>
 
