@@ -6,6 +6,11 @@ $(document).ready(function(){
         $(".navbar-collapse").collapse("hide");
     });
 
+    $("#submit-msg").on("click", function(){
+        $('#contact-form-container').hide();
+        $('#thanks').show();
+    })
+
 
 
 
