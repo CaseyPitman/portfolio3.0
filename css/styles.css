@@ -5,6 +5,7 @@ Gray rgba(80,74,74)
 Blue rgba(81,140,202)
 White rgba(255,255,255)
 Black rgba(0,0,0)
+*/
 
 /* GLOBAL */
 html{
@@ -46,9 +47,13 @@ p{
     color:rgba(226,54,54);
 }
 
+.btn, .card, input, textarea {     /*Get rid of Bootstrap rounded corner defaults*/
+    border-radius:0 !important;
+}
+
 /* HOME */
 
-/* navbar */        /*navbar height is 46.25*/
+/* navbar */        
 #navigation{
     background-color: rgba(80,74,74);
 }
@@ -97,8 +102,6 @@ p{
 #about-me {
     height:auto;
     min-height:100vh;
-    /*padding-top: 46.25px;
-    margin-top: -46.25px;*/
 }
 
 #casey-portrait{
@@ -130,7 +133,6 @@ p{
     background:transparent;
     font-weight:100;
 }
-
 
 /* projects */
 #projects{
@@ -201,6 +203,11 @@ p{
      color:white;
      font-size:1.8rem;
 }
+
+
+/*THANK YOU PAGE*/
+
+
 
 
 
