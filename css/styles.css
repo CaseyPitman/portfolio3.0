@@ -166,6 +166,10 @@ p{
     font-weight:300;
 }
 
+.card-img-top{
+    border-bottom:1px solid rgba(80,74,74);
+}
+
 #review {
     display:none;
 }
