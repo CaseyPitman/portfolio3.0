@@ -245,15 +245,11 @@ p{
     font-size:2rem;
 }
 
-
-
-
-
 /* MOBILE STYLES */
 
 @media only screen and (max-width:768px){
-/* Sets margin for collapsed navbar*/
 
+/* Sets margin for collapsed navbar*/
     body{
      margin-top:46.25px;
     }
