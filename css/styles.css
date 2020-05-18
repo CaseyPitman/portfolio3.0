@@ -89,13 +89,13 @@ p{
 /* jumbo */
 #jumbo-home{
     background: linear-gradient(
-        rgba(81,140,202, 0.90), 
-        rgba(81,140,202, 0.90)
+        rgba(81,140,202, 0.95), 
+        rgba(81,140,202, 0.95)
       ),
-      url("../img/code-bg.jpg");
+      url("../img/jigsaw1.png");
     background-size:cover;
     background-repeat:no-repeat;
-    height:100vh;
+    min-height:100vh;
     margin:0px;
     border-bottom:1px solid rgba(80,74,74);
 }
@@ -108,6 +108,10 @@ p{
 #about-me {
     height:auto;
     min-height:100vh;
+}
+
+#about-icon{
+    transform:rotate(90deg);
 }
 
 #casey-portrait{
@@ -123,6 +127,10 @@ p{
     height:auto;
     min-height:100vh;
 }
+#skills-icon{
+    transform:rotate(180deg);
+}
+
 
 .skill-div{
     background:rgba(226,54,54);
@@ -146,6 +154,9 @@ p{
     border-top:1px solid black;
 }
 
+#proects-icon{
+    transform:rotate(270deg);
+}
 .work-sample-card{
     padding:0;
     border:1px solid rgba(80,74,74);
@@ -177,21 +188,25 @@ p{
 /* Contact */
 #contact {
     background: linear-gradient(
-        rgba(81,140,202, 0.90), 
-        rgba(81,140,202, 0.90)
+        rgba(81,140,202, 0.97), 
+        rgba(81,140,202, 0.97)
       ),
-      url("../img/code-bg.jpg");
+      url("../img/jigsaw1.png");
     background-size:cover;
     background-repeat:no-repeat;
     min-height:100vh;
     margin:0px;
-    color:rgb(255, 255, 255);
-    border-top:1px solid rgba(80,74,74);
+    border-bottom:1px solid rgba(80,74,74);
+    color:white;
 }
 
 #contact-head{
     font-size:7rem;
     font-weight:300;
+}
+
+#connecting-pieces {
+    max-width:150px;
 }
 
 .form-label{
@@ -228,13 +243,13 @@ p{
 
 #thanks-content-container {
     background: linear-gradient(
-        rgba(81,140,202, 0.90), 
-        rgba(81,140,202, 0.90)
+        rgba(81,140,202, 0.97), 
+        rgba(81,140,202, 0.97)
       ),
-      url("../img/code-bg.jpg");
+      url("../img/jigsaw1.png");
     background-size:cover;
     background-repeat:no-repeat;
-    height:100vh;
+    min-height:100vh;
     margin:0px;
     color:rgb(255, 255, 255);
 }
