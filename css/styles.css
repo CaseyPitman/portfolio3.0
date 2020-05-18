@@ -89,10 +89,10 @@ p{
 /* jumbo */
 #jumbo-home{
     background: linear-gradient(
-        rgba(81,140,202, 0.95), 
-        rgba(81,140,202, 0.95)
+        rgba(81,140,202, 0.90), 
+        rgba(81,140,202, 0.90)
       ),
-      url("../img/jigsaw1.png");
+      url("../img/code-bg.jpg");
     background-size:cover;
     background-repeat:no-repeat;
     min-height:100vh;
@@ -191,7 +191,7 @@ p{
         rgba(81,140,202, 0.97), 
         rgba(81,140,202, 0.97)
       ),
-      url("../img/jigsaw1.png");
+      url("../img/code-bg.jpg");
     background-size:cover;
     background-repeat:no-repeat;
     min-height:100vh;
@@ -246,7 +246,7 @@ p{
         rgba(81,140,202, 0.97), 
         rgba(81,140,202, 0.97)
       ),
-      url("../img/jigsaw1.png");
+      url("../img/code-bg.jpg");
     background-size:cover;
     background-repeat:no-repeat;
     min-height:100vh;
