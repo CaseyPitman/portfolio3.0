@@ -89,8 +89,8 @@ p{
 /* jumbo */
 #jumbo-home{
     background: linear-gradient(
-        rgba(81,140,202, 0.90), 
-        rgba(81,140,202, 0.90)
+        rgba(81,140,202, 0.9), 
+        rgba(81,140,202, 0.9)
       ),
       url("../img/code-bg.jpg");
     background-size:cover;
