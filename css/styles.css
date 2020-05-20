@@ -89,10 +89,10 @@ p{
 /* jumbo */
 #jumbo-home{
     background: linear-gradient(
-        rgba(81,140,202, 0.9), 
-        rgba(81,140,202, 0.9)
+        rgba(81,140,202, 0.70), 
+        rgba(81,140,202, 0.70)
       ),
-      url("../img/code-bg.jpg");
+      url("../img/landscape-bg.jpg");
     background-size:cover;
     background-repeat:no-repeat;
     min-height:100vh;
