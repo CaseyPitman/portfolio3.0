@@ -89,10 +89,11 @@ p{
 /* jumbo */
 #jumbo-home{
     background: linear-gradient(
-        rgba(81,140,202, 0.70), 
-        rgba(81,140,202, 0.70)
+        rgba(81,140,202, 0.75), 
+        rgba(81,140,202, 0.75)
       ),
-      url("../img/landscape-bg.jpg");
+      url("../img/caseyhoriz2.png");
+    background-position:bottom right;
     background-size:cover;
     background-repeat:no-repeat;
     min-height:100vh;
@@ -188,10 +189,10 @@ p{
 /* Contact */
 #contact {
     background: linear-gradient(
-        rgba(81,140,202, 0.97), 
-        rgba(81,140,202, 0.97)
+        rgba(81,140,202, 0.75), 
+        rgba(81,140,202, 0.75)
       ),
-      url("../img/code-bg.jpg");
+      url("../img/footer-bg-hz.png");
     background-size:cover;
     background-repeat:no-repeat;
     min-height:100vh;
@@ -243,10 +244,10 @@ p{
 
 #thanks-content-container {
     background: linear-gradient(
-        rgba(81,140,202, 0.97), 
-        rgba(81,140,202, 0.97)
+        rgba(81,140,202, 0.75), 
+        rgba(81,140,202, 0.75)
       ),
-      url("../img/code-bg.jpg");
+      url("../img/footer-bg-hz.png");
     background-size:cover;
     background-repeat:no-repeat;
     min-height:100vh;
