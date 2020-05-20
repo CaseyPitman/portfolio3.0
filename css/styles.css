@@ -93,7 +93,7 @@ p{
         rgba(81,140,202, 0.75)
       ),
       url("../img/caseyhoriz2.png");
-    background-position:bottom right;
+    background-position:bottom /*right*/;
     background-size:cover;
     background-repeat:no-repeat;
     min-height:100vh;
@@ -103,6 +103,24 @@ p{
 
 #jumbo-container{
   color:white;
+}
+
+#jumbo-head-1 {
+    font-size: 6rem;
+    font-weight:700;
+}
+#heavy-font{
+    font-weight:700;
+}
+
+#jumbo-head-2 {
+    font-size:5rem;
+    font-weight:400;
+}
+
+#jumbo-head-3{
+    font-size: 4.4rem;
+    font-weight: 300;
 }
 
 /* about */
