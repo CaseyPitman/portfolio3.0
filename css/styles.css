@@ -106,7 +106,7 @@ p{
 }
 
 #jumbo-head-1 {
-    font-size: 6rem;
+    font-size: 9rem;
     font-weight:700;
 }
 #heavy-font{
@@ -114,17 +114,26 @@ p{
 }
 
 #jumbo-head-2 {
+    
     font-size:5rem;
     font-weight:400;
 }
 
 #jumbo-head-3{
+
     font-size: 4.4rem;
     font-weight: 300;
 }
  
+.cursor {
+    font-weight:300;
+    font-size:6.6rem;
+}
 
-
+#cursor2, 
+#cursor3 {
+    display:none;
+}
 
 /* about */
 #about-me {
