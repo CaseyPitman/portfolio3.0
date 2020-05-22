@@ -107,7 +107,7 @@ p{
 }
 
 #jumbo-text-container{
-    margin:20px 0px 0px 50px;
+    margin:200px 0px 0px 50px;
 }
 
 #jumbo-head-1 {
@@ -122,7 +122,7 @@ p{
 
 #jumbo-head-3 {
     font-size: 4rem;
-    font-weight: 300;
+    font-weight: 100;
 }
 
 #headline {
@@ -272,7 +272,6 @@ p{
      font-size:1.8rem;
 }
 
-
 /*THANK YOU PAGE*/
 
 #thanks-content-container {
@@ -305,7 +304,7 @@ p{
     }
 
     #jumbo-text-container{
-        margin:50px 0px 0px 50px;
+        margin:70px 0px 0px 50px;
     }
 
     #jumbo-head-1 {
@@ -331,7 +330,7 @@ p{
 
 /* MOBILE STYLES */
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:767px){
 
 /* Sets margin for collapsed navbar*/
     body{
@@ -372,6 +371,7 @@ p{
     #jumbo-head-3 {
         font-size: 2.8rem;
         font-weight: 300;
+        line-height:2rem;
     }
     #headline {
         line-height:4rem;
