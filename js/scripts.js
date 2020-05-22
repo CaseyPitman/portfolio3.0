@@ -46,7 +46,7 @@ $(document).ready(function(){
             if (j < text2.length) {
             document.getElementById("jumbo-head-2").innerHTML += text2.charAt(j);
             j++;
-            setTimeout(typeWriter2, 100);
+            setTimeout(typeWriter2, 200);
             }   
             setTimeout(typeWriter3, 2000);
         }
