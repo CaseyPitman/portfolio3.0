@@ -32,7 +32,7 @@ $(document).ready(function(){
 
   
 
-    let text2="My name is Casey Pitman."
+    let text2="My name is Casey."
     let j=0;
 
         function typeWriter2() {

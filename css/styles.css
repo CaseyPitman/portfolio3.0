@@ -121,8 +121,12 @@ p{
 }
 
 #jumbo-head-3 {
-    font-size: 4.4rem;
+    font-size: 4rem;
     font-weight: 300;
+}
+
+#headline {
+    line-height:6rem;
 }
  
 .cursor {
@@ -301,7 +305,7 @@ p{
     }
 
     #jumbo-text-container{
-        margin:5px 0px 0px 50px;
+        margin:50px 0px 0px 50px;
     }
 
     #jumbo-head-1 {
@@ -333,28 +337,48 @@ p{
     body{
      margin-top:46.25px;
     }
-
+    #jumbo-home{
+        background: linear-gradient(
+            rgba(81,140,202, 0.75), 
+            rgba(81,140,202, 0.75)
+          ),
+          url("../img/portrait-bg-2.png");
+        background-position:bottom right;
+        background-size:cover;
+        background-repeat:no-repeat;
+        overflow: hidden;
+        min-height:100vh;
+        margin:0px;
+        border-bottom:1px solid rgba(80,74,74);
+    }
     #jumbo-home{
         background-position:bottom right;
     }
 
     #jumbo-text-container{
-        margin:5px 0px 0px 50px;
+        margin:50px 0px 0px 20px;
     }
 
     #jumbo-head-1 {
-        font-size: 9rem;
+        font-size: 5rem;
         font-weight:700;
     }
     
     #jumbo-head-2{
-        font-size:5rem;
+        font-size:3.5rem;
         font-weight:400;
     }
     
     #jumbo-head-3 {
-        font-size: 4.4rem;
+        font-size: 2.8rem;
         font-weight: 300;
+    }
+    #headline {
+        line-height:4rem;
+    }
+
+    #jumbo-head-3, #cursor3 {
+        line-height:1rem;
     }
      
     .cursor {
