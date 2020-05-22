@@ -16,18 +16,18 @@ $(document).ready(function(){
     let i=0;
     
         function typeWriter1() {
-            function cursorBlink() {
+            /*function cursorBlink() {
                 $('#cursor1').fadeOut(500);
                 $('#cursor1').fadeIn(500);
-            }
-            setInterval(cursorBlink, 1000);
+            }*/
+           // setInterval(cursorBlink, 1000);
             if (i < text1.length) {
             document.getElementById("jumbo-head-1").innerHTML += text1.charAt(i);
             i++;
-            Math.floor(Math.random()*201)+10;
-            setTimeout(typeWriter1, 222);
+            //Math.floor(Math.random()*201)+10;
+            setTimeout(typeWriter1, 100);
             }   
-            setTimeout(typeWriter2, 2400);  
+            setTimeout(typeWriter2, 1000);  
         } 
 
   
@@ -35,45 +35,44 @@ $(document).ready(function(){
     let text2="My name is Casey Pitman."
     let j=0;
 
-         function typeWriter2() {
+        function typeWriter2() {
             $("#cursor1").remove();
-            $("#cursor2").toggle();
-            function cursorBlink() {
+            $("#cursor2").show();
+            /*function cursorBlink() {
                 $('#cursor2').fadeOut(500);
                 $('#cursor2').fadeIn(500);
             }
-            setInterval(cursorBlink, 1000);
+            setInterval(cursorBlink, 1000);*/
             if (j < text2.length) {
             document.getElementById("jumbo-head-2").innerHTML += text2.charAt(j);
             j++;
-            setTimeout(typeWriter2, 700);
+            setTimeout(typeWriter2, 100);
             }   
-            setTimeout(typeWriter3, 5000);
+            setTimeout(typeWriter3, 2000);
         }
 
         let text3="I'm a web developer who loves to solve problems."
         let k=0;
         function typeWriter3() {
-            $("#cursor2").remove();
-            $("#cursor3").toggle();
-            function cursorBlink() {
+          $("#cursor2").remove();
+          $("#cursor3").show();
+            /*function cursorBlink() {
                 $('#cursor3').fadeOut(500);
                 $('#cursor3').fadeIn(500);
             }
-            setInterval(cursorBlink, 1000);
+            setInterval(cursorBlink, 1000);*/
             if (k < text3.length) {
             document.getElementById("jumbo-head-3").innerHTML += text3.charAt(k);
             k++;
-           let speed3=Math.floor(Math.random()*501)+10;
-            setTimeout(typeWriter3, 1500);
+           //let speed3=Math.floor(Math.random()*501)+10;
+            setTimeout(typeWriter3, 1000);
             }  
-            setTimeout(clearCursor, 7000);
-        
+            setTimeout(clearCursor, 2000);
         } 
 
-    function clearCursor(){
-        $("#cursor3").remove();
-    }    
+        function clearCursor(){
+            $("#cursor3").remove();
+        }
   typeWriter1();
 
 }); //end jQuery
