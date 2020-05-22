@@ -108,29 +108,26 @@ p{
 
 #jumbo-text-container{
     margin:20px 0px 0px 50px;
-
 }
 
 #jumbo-head-1 {
     font-size: 9rem;
     font-weight:700;
-   
 }
 
-#jumbo-head-2 {
+#jumbo-head-2{
     font-size:5rem;
     font-weight:400;
-    
 }
 
-#jumbo-head-3{
+#jumbo-head-3 {
     font-size: 4.4rem;
     font-weight: 300;
 }
  
 .cursor {
     font-weight:300;
-    font-size:6.6rem;
+    font-size:7rem;
 }
 
 #cursor2, 
@@ -164,7 +161,6 @@ p{
 #skills-icon{
     transform:rotate(180deg);
 }
-
 
 .skill-div{
     background:rgba(226,54,54);
@@ -304,7 +300,31 @@ p{
         background-position:bottom right;
     }
 
+    #jumbo-text-container{
+        margin:5px 0px 0px 50px;
+    }
+
+    #jumbo-head-1 {
+        font-size: 9rem;
+        font-weight:700;
+    }
+    
+    #jumbo-head-2{
+        font-size:5rem;
+        font-weight:400;
+    }
+    
+    #jumbo-head-3 {
+        font-size: 4.4rem;
+        font-weight: 300;
+    }
+     
+    .cursor {
+        font-weight:300;
+        font-size:7rem;
+    }
 }
+
 /* MOBILE STYLES */
 
 @media only screen and (max-width:768px){
@@ -312,5 +332,33 @@ p{
 /* Sets margin for collapsed navbar*/
     body{
      margin-top:46.25px;
+    }
+
+    #jumbo-home{
+        background-position:bottom right;
+    }
+
+    #jumbo-text-container{
+        margin:5px 0px 0px 50px;
+    }
+
+    #jumbo-head-1 {
+        font-size: 9rem;
+        font-weight:700;
+    }
+    
+    #jumbo-head-2{
+        font-size:5rem;
+        font-weight:400;
+    }
+    
+    #jumbo-head-3 {
+        font-size: 4.4rem;
+        font-weight: 300;
+    }
+     
+    .cursor {
+        font-weight:300;
+        font-size:7rem;
     }
 }
