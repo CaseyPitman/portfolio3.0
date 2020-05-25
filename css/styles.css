@@ -162,6 +162,7 @@ p{
     height:auto;
     min-height:100vh;
 }
+
 #skills-icon{
     transform:rotate(180deg);
 }
