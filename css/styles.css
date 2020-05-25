@@ -225,6 +225,14 @@ p{
     font-weight:700;
 }
 
+.body-link {
+    color:rgba(226,54,54);
+}
+
+.body-link:hover {
+    color:rgba(226,54,54);
+}
+
 #review {
     display:none;
 }
