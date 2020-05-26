@@ -52,4 +52,5 @@ $(document).ready(function(){
         $("#cursor3").remove();
     }
 
-  $(window).on("load", typeWriter1);
+$(window).on("load", typeWriter1);
+
