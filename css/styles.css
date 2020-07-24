@@ -48,6 +48,14 @@ p{
     color:rgba(226,54,54);
 }
 
+.red-text {
+    color:rgba(226,54,54);
+}
+
+.divider {
+    color:rgba(226,54,54);
+}
+
 .btn, .card, input, textarea {     /*Get rid of Bootstrap rounded corner defaults*/
     border-radius:0 !important;
 }
@@ -158,22 +166,37 @@ p{
 
 /* skills */
 #my-skills {
+
     border-top: 1px solid black;
+    
     height:auto;
     min-height:100vh;
+    
 }
 
 #skills-icon{
     transform:rotate(180deg);
+    color:rgba(226,54,54);
 }
 
 .skill-div{
-    background:rgba(226,54,54);
+    background:green;
     color:rgb(255, 255, 255);
 }
 
 .skill-group-head{
     font-weight:100;
+}
+
+.skills-head {
+    font-weight:300;
+    color:rgba(226,54,54);
+}
+
+
+.skills-text {
+    font-size:2.2rem;
+    font-weight: bold;
 }
 
 .list-group-item {
