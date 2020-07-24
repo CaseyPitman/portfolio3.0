@@ -179,11 +179,6 @@ p{
     color:rgba(226,54,54);
 }
 
-.skill-div{
-    background:green;
-    color:rgb(255, 255, 255);
-}
-
 .skill-group-head{
     font-weight:100;
 }
@@ -193,17 +188,9 @@ p{
     color:rgba(226,54,54);
 }
 
-
 .skills-text {
     font-size:2.2rem;
     font-weight: bold;
-}
-
-.list-group-item {
-    font-size:2rem; 
-    border:none;
-    background:transparent;
-    font-weight:300;
 }
 
 /* projects */
