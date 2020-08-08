@@ -7,6 +7,12 @@ White rgba(255,255,255)
 Black rgba(0,0,0)
 */
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 /* GLOBAL */
 html{
     font-size:10px;
@@ -26,10 +32,6 @@ h1{
     font-size:7rem;
 }
 
-h2 {
-    font-size:3.6rem;
-    font-weight: 300;
-}
 
 h3 {
     font-size:3.2rem;
@@ -41,6 +43,27 @@ h4 {
 
 p{
     font-size:1.8rem;
+    line-height: 1.5
+}
+
+.section {
+    height:auto;
+    min-height:100vh;
+    margin: 50px auto;
+    scroll-margin-top: 90px 
+}
+
+.section-head {
+    font-size:5.5rem;
+    font-weight: 300;
+}
+
+.drop-cap{
+    color: rgba(226,54,54);
+    font-size: 4rem;
+    font-weight:300;
+    line-height:0;
+    font-variant: small-caps;
 }
 
 .red-icon {
@@ -147,10 +170,20 @@ p{
     display:none;
 }
 
-/* about */
-#about-me {
-    height:auto;
-    min-height:100vh;
+/* ABOUT */
+
+
+#about-container {
+    margin: auto;
+    width:90%;
+}
+
+#about-content-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+
 }
 
 #about-icon{
@@ -158,10 +191,13 @@ p{
 }
 
 #casey-portrait{
+    display: block;
     max-width:200px;
-    height:100%;
+    height:auto;
     border:1px solid rgba(0, 0, 0);
-    padding:0;
+    border-radius: 50%;
+    margin:50px auto;
+    padding:0; 
 }
 
 /* skills */
