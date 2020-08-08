@@ -83,13 +83,13 @@
     </header>
     
     <main id="main-content-container">
+
       <section id="about-me" class="section">
         <div id = "about-container">
           <div id="about-section-head">
             <h2 class="section-head" id="about-head-text"><i class="fas fa-puzzle-piece red-icon" id="about-icon"></i>  About</h2>
           </div>
           <div id = "about-content-container">
-            <!--  class="img-fluid order-lg-2 rounded-circle" -->
             <img id="casey-portrait" class="" src="img/me-small.jpg" alt="Casey standing in front of some funky art wearing a cool hat.">
             <div class="" id="about-text">
               <p>
@@ -111,39 +111,59 @@
         </div>
       </section>
 
-      <section id="my-skills" class="container-fluid d-flex">
-        <div class="col-md-10 mx-auto my-5 py-5 align-self-center">
+      <section id="my-skills" class="section">
+        <div id="skills-container">
           <div id="skills-section-head">
-            <h2 class="my-5 display-2" id="skills-head-text"><i class="fas fa-puzzle-piece" id="skills-icon"></i>  Skills</h2>
+            <h2 class="section-head" id="skills-head-text"><i class="fas fa-puzzle-piece" id="skills-icon"></i>  Skills</h2>
           </div>
           <div>
-            <p class = "skills-intro-text">My life has taken a few turns, and the skills I've learned have proven useful in my coding. As a journalist I learned to communicate clearly and to review, revise, and edit. As a law student I learned to think logically. As an educator I learned to organize and plan while remainging flexible enough to adapt to the unforeseen. </p>
+            <p id = "skills-intro-text"><span class = "drop-cap">My</span> life has taken a few turns, and the skills I've learned have proven useful in my coding. As a journalist I learned to communicate clearly and to review, revise, and edit. As a law student I learned to think logically. As an educator I learned to organize and plan while remainging flexible enough to adapt to the unforeseen. </p>
           </div>
-          <div id="skills" class = "mt-5">
-            <h3 class="skills-head">
-              Proficient
-            </h3>
-            <p class="skills-text">
-              JavaScript <span class = "divider"> &nbsp; | &nbsp; </span> Semantic HTML <span class = "divider"> &nbsp; | &nbsp; </span> CSS <span class = "divider"> &nbsp; | &nbsp; </span> Flexbox <span class = "divider"> &nbsp; | &nbsp; </span> jQuery <span class = "divider"> &nbsp; | &nbsp; </span> Version Control <span class = "divider"> &nbsp; | &nbsp; </span> Git <span class = "divider"> &nbsp; | &nbsp; </span> GitHub <span class = "divider"> &nbsp; | &nbsp; </span> Sass
-            </p>
-            <h3 class="skills-head mt-5">
-              Exposure
-            </h3>
-            <p class="skills-text">
-              WebKit <span class = "divider"> &nbsp; | &nbsp; </span> Babel <span class = "divider"> &nbsp; | &nbsp; </span> Node.js <span class = "divider"> &nbsp; | &nbsp; </span> npm
-            </p>
-          </div>
+          <div id="skills" class = "">
+            <div class="skill-proficient">
+              <h3 class="skills-head">
+                Proficient
+              </h3>
+              <div class="skill-div">
+                <ul class = "skill-list">
+                  <li class="skills-text">JavaScript</li>
+                  <li class="skills-text">Semantic HTML</li>
+                  <li class="skills-text">CSS</li>
+                  <li class="skills-text">Flexbox</li>
+                  <li class="skills-text">Version Control</li>
+                </ul>
+                <ul class = "skill-list">
+                  <li class="skills-text">Sass</li>
+                  <li class="skills-text">jQuery</li>
+                  <li class="skills-text">Bootstrap</li>
+                  <li class="skills-text">Git & GitHub</li>
+                </ul>
+              </div>
+            </div>
+
+            <div id="skill-exposed">
+              <h3 class="skills-head">
+                Exposure
+              </h3>
+              <ul class = "skill-list">
+                <li class="skills-text">Node.js</li>
+                <li class="skills-text">WebKit</li>
+                <li class="skills-text">Babel</li>
+                <li class="skills-text">npm</li>
+              </ul>
+            </div>
+        </div>
         </div> 
       </section>
 
       <section id="projects" class="container-fluid">
         <div class="col-md-10 mx-auto mt-5 pt-5">
           <div id="project-section-head" class="my-5">
-            <h2 class="display-2" id="project-head-text"><i class="fas fa-puzzle-piece red-icon" id="proects-icon"></i> Projects</h2>
+            <h2 class="display-2" id="project-head-text"><i class="fas fa-puzzle-piece red-icon" id="projects-icon"></i> Projects</h2>
           </div>
           <!--Website work samples-->
           <section id="sites-samples" class="my-5 py-5">
-            <h3 class="display-4 work-sample-section-head">Websites</h3>
+            <h3 class="red-text work-sample-section-head">Websites</h3>
             <!--Sugar & Spice -->
             <div class="row d-flex justify-content-between mx-auto">
             <div class="card col-md-5 work-sample-card my-5">
@@ -220,11 +240,11 @@
                 </div>
               </div>
             </div>
-
           </section>
+
           <!--App Samples -->
           <section id="web-apps-samples" class="my-5 py-5">
-            <h3 class="display-4 work-sample-section-head">Web Apps</h3>
+            <h3 class="red-text work-sample-section-head">Web Apps</h3>
             <div class="row d-flex justify-content-between mx-auto">
             <!--Currency Converter-->
               <div class="card col-md-5 col-xl-3 mx-xl-1 work-sample-card my-5">

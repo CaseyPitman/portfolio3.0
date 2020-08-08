@@ -7,6 +7,14 @@ White rgba(255,255,255)
 Black rgba(0,0,0)
 */
 
+
+/* New Palette */
+
+Dark Grey (replace black)       rgb(44,44,44);
+Blue                            rgba(52, 152, 219);
+Another darker blue             rgba(41, 128, 185);
+Red                             rgba(231, 76, 60);
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -46,12 +54,6 @@ p{
     line-height: 1.5
 }
 
-.section {
-    height:auto;
-    min-height:100vh;
-    margin: 50px auto;
-    scroll-margin-top: 90px 
-}
 
 .section-head {
     font-size:5.5rem;
@@ -59,7 +61,7 @@ p{
 }
 
 .drop-cap{
-    color: rgba(226,54,54);
+    color: rgba(231, 76, 60);
     font-size: 4rem;
     font-weight:300;
     line-height:0;
@@ -68,15 +70,15 @@ p{
 
 .red-icon {
     font-size:5rem;
-    color:rgba(226,54,54);
+    color:rgba(231, 76, 60);
 }
 
 .red-text {
-    color:rgba(226,54,54);
+    color:rgba(231, 76, 60);
 }
 
 .divider {
-    color:rgba(226,54,54);
+    color:rgba(231, 76, 60);
 }
 
 .btn, .card, input, textarea {     /*Get rid of Bootstrap rounded corner defaults*/
@@ -106,7 +108,7 @@ p{
  }
 
 .close-bar:hover {
-    color:rgba(226,54,54);
+    color:rgba(231, 76, 60);
  }
 
 #collapsible-navbar {
@@ -120,8 +122,8 @@ p{
 /* jumbo */
 #jumbo-home{
     background: linear-gradient(
-        rgba(81,140,202, 0.75), 
-        rgba(81,140,202, 0.75)
+        rgba(52, 152, 219, 0.6), 
+        rgba(52, 152, 219, 0.6)
       ),
       url("../img/landscape-bg.jpg");
     background-position:bottom right;
@@ -172,6 +174,13 @@ p{
 
 /* ABOUT */
 
+#about-me {
+    height:auto;
+    min-height:100vh;
+    margin: 50px auto;
+    scroll-margin-top: 90px 
+}
+
 
 #about-container {
     margin: auto;
@@ -183,7 +192,6 @@ p{
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-
 }
 
 #about-icon{
@@ -200,19 +208,22 @@ p{
     padding:0; 
 }
 
-/* skills */
+/* SKILLS */
 #my-skills {
-
     border-top: 1px solid black;
-    
     height:auto;
     min-height:100vh;
-    
+    scroll-margin-top: 45px 
+}
+
+#skills-container {
+    margin: 50px auto;
+    width:90%;
 }
 
 #skills-icon{
     transform:rotate(180deg);
-    color:rgba(226,54,54);
+    color:rgba(231, 76, 60);
 }
 
 .skill-group-head{
@@ -220,13 +231,42 @@ p{
 }
 
 .skills-head {
+    border-bottom: 1px solid rgba(231, 76, 60);
+    margin: 0 auto 20px;
     font-weight:300;
-    color:rgba(226,54,54);
+    color:rgba(231, 76, 60);
+    width: 100%;
+}
+
+#skills-intro-text{
+    margin: 50px auto;
+}
+
+.skill-list{
+    list-style:none;
+    list-style-position: inside;
+    display:block;
+    margin:0 auto;
+    width:70%;
+}
+
+.skill-list li::before{
+    content: "\2022";
+    color: rgba(231, 76, 60);
+    font-weight: bold;
+    display: inline-block;
+    width:1em;
 }
 
 .skills-text {
+    /* //FLEX? */
+
     font-size:2.2rem;
     font-weight: bold;
+}
+
+#skill-exposed {
+    margin: 25px auto;
 }
 
 /* projects */
@@ -235,7 +275,7 @@ p{
     border-top:1px solid black;
 }
 
-#proects-icon{
+#projects-icon{
     transform:rotate(270deg);
 }
 .work-sample-card{
@@ -244,12 +284,12 @@ p{
 }
 
 .work-sample-section-head{
-    border-bottom: 2px solid rgba(226,54,54);
+    border-bottom: 1px solid rgba(231, 76, 60);
     font-weight:200;
 }
 
 .work-sample-link-btn {
-    background-color:rgba(226,54,54);
+    background-color:rgba(231, 76, 60);
     color:white;
     size:1.6rem;
 }
@@ -273,11 +313,11 @@ p{
 }
 
 .body-link {
-    color:rgba(226,54,54);
+    color:rgba(231, 76, 60);
 }
 
 .body-link:hover {
-    color:rgba(226,54,54);
+    color:rgba(231, 76, 60);
 }
 
 #review {
@@ -328,11 +368,11 @@ p{
 }
 
 .soc-med-links:hover{
-    color:rgba(226, 54, 54);
+    color:rgba(231, 76, 60);
 }
 
 #submit-btn{
-     background-color:rgba(226,54,54);
+     background-color:rgba(231, 76, 60);
      color:white;
      font-size:1.8rem;
 }
@@ -341,8 +381,8 @@ p{
 
 #thanks-content-container {
     background: linear-gradient(
-        rgba(81,140,202, 0.75), 
-        rgba(81,140,202, 0.75)
+        rgba(52, 152, 219, 0.6), 
+        rgba(52, 152, 219, 0.6)
       ),
       url("../img/footer-bg-hz.jpg");
     background-size:cover;
@@ -357,7 +397,7 @@ p{
 }
 
 #return-home-btn {
-    background-color:rgba(226,54,54);
+    background-color:rgba(231, 76, 60);
     color:white;
     font-size:2rem;
 }
@@ -403,8 +443,8 @@ p{
     }
     #jumbo-home{
         background: linear-gradient(
-            rgba(81,140,202, 0.75), 
-            rgba(81,140,202, 0.75)
+            rgba(52, 152, 219, 0.6), 
+            rgba(52, 152, 219, 0.6)
           ),
           url("../img/portrait-bg-2.jpg");
         background-position:bottom right;
