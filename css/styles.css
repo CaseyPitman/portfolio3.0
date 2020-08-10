@@ -10,10 +10,10 @@ Black rgba(0,0,0)
 
 /* New Palette */
 
-Dark Grey (replace black)       rgb(44,44,44);
+/* Dark Grey (replace black)       rgb(44,44,44);
 Blue                            rgba(52, 152, 219);
 Another darker blue             rgba(41, 128, 185);
-Red                             rgba(231, 76, 60);
+Red                             rgba(231, 76, 60); */
 
 *{
     box-sizing: border-box;
@@ -256,6 +256,7 @@ p{
     margin: 20px auto;
     padding:0;
 }
+
 .left {
     justify-self: start;
     width: 60%;
@@ -275,10 +276,10 @@ p{
 }
 
 .skills-text {
-    /* //FLEX? */
 
     font-size:2.2rem;
     font-weight: bold;
+    line-height:1.5;
 }
 
 #skill-exposed {
@@ -287,54 +288,100 @@ p{
 
 /* projects */
 #projects{
+    border-top: 1px solid black;
+    height:auto;
     min-height:100vh;
-    border-top:1px solid black;
+    scroll-margin-top: 45px 
 }
 
 #projects-icon{
     transform:rotate(270deg);
 }
-.work-sample-card{
-    padding:0;
-    border:1px solid rgba(80,74,74);
+ 
+#projects-container {
+    margin: 50px auto;
+    width:90%;
+}
+
+#sites-samples {
+    margin: 50px auto;
 }
 
 .work-sample-section-head{
     border-bottom: 1px solid rgba(231, 76, 60);
-    font-weight:200;
+    margin: 0 auto 20px;
+    font-weight:300;
+    color:rgba(231, 76, 60);
+    width: 100%;
 }
 
-.work-sample-link-btn {
-    background-color:rgba(231, 76, 60);
-    color:white;
-    size:1.6rem;
-}
-.card-text {
-    font-size:1.6rem;
+/* work sample cards */
+.work-sample-card{
+    border:1px solid rgba(80,74,74);
 }
 
-.card-title {
+.work-sample-img {
+    display:block;
+    margin:auto;
+    width:100%;
+}
+
+.work-sample-card-content {
+    margin: 25px auto;
+    width: 90%;
+}
+
+.work-sample-card-title {
     font-size: 2.6rem;
     font-weight:200;
     width:100%;
 }
 
-.card-img-top{
-    border-bottom:1px solid rgba(80,74,74);
-}
-
 .sample-tools {
+    margin: 10px auto;
     font-size:1.8rem;
     font-weight:700;
 }
 
-.body-link {
-    color:rgba(231, 76, 60);
+.work-sample-card-text {
+    font-size:1.8rem;
+    line-height: 1.5;
+    margin: 10px auto 20px;
 }
 
-.body-link:hover {
-    color:rgba(231, 76, 60);
+.work-sample-links{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+    width: 100%;
 }
+
+.link-button {
+    border: 1px solid rgba(231, 76, 60);
+    background:transparent;
+    color: rgba(231, 76, 60);
+    font-size: 2rem;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 40%;
+}
+
+.link-button:hover {
+    background: rgba(231, 76, 60);
+    color: white;
+    text-decoration: none;
+}
+.link-button:focus {
+    background: rgba(231, 76, 60);
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
 
 #review {
     display:none;

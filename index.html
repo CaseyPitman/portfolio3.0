@@ -154,39 +154,51 @@
                 <li class="skills-text">npm</li>
               </ul>
             </div>
-        </div>
+          </div>
         </div> 
       </section>
 
-      <section id="projects" class="container-fluid">
-        <div class="col-md-10 mx-auto mt-5 pt-5">
-          <div id="project-section-head" class="my-5">
-            <h2 class="display-2" id="project-head-text"><i class="fas fa-puzzle-piece red-icon" id="projects-icon"></i> Projects</h2>
+      <section id="projects" class="section">
+        <div id="projects-container">
+          <div id="project-section-head">
+            <h2 class="section-head" id="project-head-text"><i class="fas fa-puzzle-piece red-icon" id="projects-icon"></i> Projects</h2>
           </div>
+
+
           <!--Website work samples-->
-          <section id="sites-samples" class="my-5 py-5">
+          <section id="sites-samples" class="">
             <h3 class="red-text work-sample-section-head">Websites</h3>
+
             <!--Sugar & Spice -->
-            <div class="row d-flex justify-content-between mx-auto">
-            <div class="card col-md-5 work-sample-card my-5">
+            <div class="work-sample-card">
               <a href="https://caseypitman.github.io/sugar-and-spice/" target="_blank">
-                <img src="img/sugar-and-spice.jpg" class="card-img-top" alt="Screenshot of Sugar and Spice Catering website.">
+                <img src="img/sugar-and-spice.jpg" class="work-sample-img" alt="Screenshot of Sugar and Spice Catering website.">
               </a>
-              <div class="card-body d-flex flex-wrap">
-                <h4 class="card-title">Sugar & Spice Catering</h4>
-                <h5 class="sample-tools">HTML <span class = "divider"> &nbsp; | &nbsp; </span> CSS <span class = "divider"> &nbsp; | &nbsp; </span> Bootstrap <span class = "divider"> &nbsp; | &nbsp; </span> jQuery</h5>
-                <p class="card-text">
-                  This was my first freelance project. It is a multi-page website for a local caterer in my hometown.
-                  It includes a landing page, a menu, an image gallery, and a contact form. 
+              <div class="work-sample-card-content">
+                <h4 class="work-sample-card-title">Sugar & Spice Catering</h4>
+                <!-- <h5 class="sample-tools">HTML <span class = "divider"> &nbsp; | &nbsp; </span> CSS <span class = "divider"> &nbsp; | &nbsp; </span> Bootstrap <span class = "divider"> &nbsp; | &nbsp; </span> jQuery</h5> -->
+                <ul class="work-sample-tool-list">
+                  <li class="work-sample-tool">HTML</li>
+                  <li class="work-sample-tool">CSS</li>
+                  <li class="work-sample-tool">Bootstrap</li>
+                  <li class="work-sample-tool">jQuery</li>
+                </ul>
+
+                <p class="work-sample-card-text">
+                  This freelance project is a multi-page website for a caterer. It includes a landing page, a menu, an image gallery, and a contact form. 
                 </p>
-                <div class="text-center work-sample-links align-self-end w-100">
-                  <a href="https://caseypitman.github.io/sugar-and-spice/" target="_blank" class="btn btn-lg work-sample-link-btn mx-2">View Site</a>
-                  <a href="https://github.com/CaseyPitman/sugar-and-spice" target="_blank" class="btn btn-lg work-sample-link-btn mx-2">View Code</a>
+                <div class=" work-sample-links">
+                  <a href="https://caseypitman.github.io/sugar-and-spice/" target="_blank" class="link-button">View Site</a>
+                  <a href="https://github.com/CaseyPitman/sugar-and-spice" target="_blank" class="link-button">View Code</a>
                 </div>
               </div>
             </div>
+
+
+
+            
             <!--Purposefully Adrift-->
-            <div class="card col-md-5 work-sample-card my-5">
+            <!-- <div class="card col-md-5 work-sample-card my-5">
               <a href="https://caseypitman.github.io/purposefully-adrift/" target="_blank">
                 <img src="img/purposefully-adrift.jpg" class="card-img-top" alt="Screenshot of Purposefully Adrift website.">
               </a>
@@ -202,10 +214,11 @@
                   <a href="https://github.com/CaseyPitman/purposefully-adrift" target="_blank" class="btn btn-lg work-sample-link-btn mx-2">View Code</a>
                 </div>
               </div>
-            </div>
+            </div> -->
            </div>
+
            <!--Sample Portfolio-->
-           <div class="row d-flex justify-content-between mx-auto">
+           <!-- <div class="row d-flex justify-content-between mx-auto">
              <div class="card col-md-5 work-sample-card my-5">
                <a href="https://caseypitman.github.io/sample-portfolio/" target="_blank">
                   <img src="img/sample-portfolio.jpg" class="card-img-top" alt="Screenshot of a sample portfolio site.">
@@ -223,9 +236,9 @@
                     <a href="https://github.com/CaseyPitman/sample-portfolio/tree/master" target="_blank" class="btn btn-lg work-sample-link-btn mx-2">View Code</a>
                   </div>
                 </div>
-              </div>
+              </div> -->
               <!--Bandito Burrito-->
-              <div class="card col-md-5 work-sample-card my-5">
+              <!-- <div class="card col-md-5 work-sample-card my-5">
                 <a href="https://caseypitman.github.io/rogue-pickings-responsive/" target="_blank">
                   <img src="img/bandito-burrito.jpg" class="card-img-top" alt="Screenshot of Bandito Burrito website.">
                 </a>
@@ -240,7 +253,7 @@
                     <a href="https://github.com/CaseyPitman/rogue-pickings-responsive" target="_blank" class="btn btn-lg work-sample-link-btn mx-2">View Code</a>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
           </section>
 
@@ -403,6 +416,7 @@
               </div>
             </div>
           </section>
+
           <!--Display=none for now-->
           <section id="review" class="">
             Review quote can go here. Eventually. 
