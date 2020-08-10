@@ -242,12 +242,28 @@ p{
     margin: 50px auto;
 }
 
+#skill-proficient, 
+#skill-exposed {
+    display:flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-flow: row wrap;
+}
+
 .skill-list{
     list-style:none;
-    list-style-position: inside;
     display:block;
-    margin:0 auto;
-    width:70%;
+    margin: 20px auto;
+    padding:0;
+}
+.left {
+    justify-self: start;
+    width: 60%;
+}
+
+.right {
+    justify-self: flex-end;
+    width:40%
 }
 
 .skill-list li::before{
