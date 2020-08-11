@@ -52,3 +52,5 @@ $(document).ready(function(){
 //FIRES TYPEWRITER AFTER PAGE LOAD
 $(window).on("load", typeWriter1);
 
+
+

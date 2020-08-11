@@ -318,6 +318,7 @@ p{
 /* work sample cards */
 .work-sample-card{
     border:1px solid rgba(80,74,74);
+    margin-top: 30px;
 }
 
 .work-sample-img {
@@ -332,15 +333,32 @@ p{
 }
 
 .work-sample-card-title {
+    color:rgba(231, 76, 60);
     font-size: 2.6rem;
     font-weight:200;
     width:100%;
 }
 
+.sample-tool-list {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
 .sample-tools {
-    margin: 10px auto;
+    display: inline-block;
+    margin: 10px 0;
     font-size:1.8rem;
     font-weight:700;
+}
+
+.sample-tools::before{
+    content: "\2022";
+    color: rgba(231, 76, 60);
+    font-weight: bold;
+    display: inline-block;
+    width:.5em;
 }
 
 .work-sample-card-text {
