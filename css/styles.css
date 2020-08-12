@@ -1,11 +1,5 @@
 /*Color Palette*/
-/*
-Red rgba(226,54,54)
-Gray rgba(80,74,74)
-Blue rgba(81,140,202)
-White rgba(255,255,255)
-Black rgba(0,0,0)
-*/
+
 
 
 /* New Palette */
@@ -13,7 +7,8 @@ Black rgba(0,0,0)
 /* Dark Grey (replace black)       rgb(44,44,44);
 Blue                            rgba(52, 152, 219);
 Another darker blue             rgba(41, 128, 185);
-Red                             rgba(231, 76, 60); */
+Red                             rgba(231, 76, 60);
+white                            rgba(236, 240, 241)*/
 
 *{
     box-sizing: border-box;
@@ -28,6 +23,7 @@ html{
 
 body{
     background-color:rgba(255,255,255);
+    color:rgb(44, 44, 44);
     font-family: 'Roboto', sans-serif;
     margin-top:46.25px;
 }
@@ -131,19 +127,15 @@ p{
     overflow: hidden;
     min-height:100vh;
     margin:0px;
-    border-bottom:1px solid rgba(80,74,74);
+    border-bottom:1px solid rgba(44,44,44);
 }
 
 #jumbo-container{
   color:white;
 }
 
-#jumbo-home{
-    background-position:bottom right;
-}
-
 #jumbo-text-container{
-    margin:50px 0px 0px 20px;
+    margin:30px 0px 0px 20px;
 }
 
 #jumbo-head-1 {
@@ -210,7 +202,7 @@ p{
     display: block;
     max-width:200px;
     height:auto;
-    border:1px solid rgba(0, 0, 0);
+    border:1px solid rgba(44, 44, 44);
     border-radius: 50%;
     margin:50px auto;
     padding:0; 
@@ -218,7 +210,7 @@ p{
 
 /* SKILLS */
 #my-skills {
-    border-top: 1px solid black;
+    border-top: 1px solid rgba(44, 44, 44);
     height:auto;
     min-height:100vh;
     scroll-margin-top: 45px 
@@ -296,7 +288,7 @@ p{
 
 /* projects */
 #projects{
-    border-top: 1px solid black;
+    border-top: 1px solid rgba(44, 44, 44);
     height:auto;
     min-height:100vh;
     scroll-margin-top: 45px 
@@ -347,13 +339,6 @@ p{
     font-weight:200;
     width:100%;
 }
-
-/* .sample-tool-list {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-flow: row nowrap;
-} */
 
 .sample-tools {
     display: inline-block;
@@ -562,5 +547,49 @@ p{
     background-color:rgba(231, 76, 60);
     color:white;
     font-size:2rem;
+}
+
+/* MOBILE LANDSCAPE */
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 823px) 
+  and (orientation: landscape) { 
+    #headline {
+        width: 55%;
+    }
+
+    #jumbo-home{
+        background: linear-gradient(
+            rgba(52, 152, 219, 0.6), 
+            rgba(52, 152, 219, 0.6)
+          ),
+          url("../img/landscape-bg.jpg");
+        background-position:bottom right;
+        background-size:cover;
+        background-repeat:no-repeat;
+        overflow: hidden;
+        min-height:100vh;
+        margin:0px;
+        border-bottom:1px solid rgba(44,44,44);
+    }
+
+    #sites-samples, 
+    #apps-samples{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: row wrap;
+    }
+
+    .work-sample-card{
+      
+        width:45%;
+    }
+
+    .link-button {
+        width: 45%;
+ 
+    }
 }
 
