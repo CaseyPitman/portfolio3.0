@@ -29,7 +29,7 @@ html{
 body{
     background-color:rgba(255,255,255);
     font-family: 'Roboto', sans-serif;
-    margin-top:50px;
+    margin-top:46.25px;
 }
 
 h1,h2,h3,h4,h5,h6,p,a,li {
@@ -53,7 +53,6 @@ p{
     font-size:1.8rem;
     line-height: 1.5
 }
-
 
 .section-head {
     font-size:5.5rem;
@@ -125,7 +124,7 @@ p{
         rgba(52, 152, 219, 0.6), 
         rgba(52, 152, 219, 0.6)
       ),
-      url("../img/landscape-bg.jpg");
+      url("../img/portrait-bg-2.jpg");
     background-position:bottom right;
     background-size:cover;
     background-repeat:no-repeat;
@@ -139,27 +138,36 @@ p{
   color:white;
 }
 
+#jumbo-home{
+    background-position:bottom right;
+}
+
 #jumbo-text-container{
-    margin:200px 0px 0px 50px;
+    margin:50px 0px 0px 20px;
 }
 
 #jumbo-head-1 {
-    font-size: 9rem;
+    font-size: 5rem;
     font-weight:700;
 }
 
 #jumbo-head-2{
-    font-size:5rem;
+    font-size:3.5rem;
     font-weight:400;
 }
 
 #jumbo-head-3 {
-    font-size: 4rem;
-    font-weight: 100;
+    font-size: 2.8rem;
+    font-weight: 300;
+    line-height:2rem;
 }
 
 #headline {
-    line-height:6rem;
+    line-height:4rem;
+}
+ 
+#jumbo-head-3, #cursor3 {
+    line-height:1rem;
 }
  
 .cursor {
@@ -556,92 +564,3 @@ p{
     font-size:2rem;
 }
 
-/* TABLET STYLES */
-@media only screen and (max-width:1200px){
-    #jumbo-home{
-        background-position:bottom right;
-    }
-
-    #jumbo-text-container{
-        margin:70px 0px 0px 50px;
-    }
-
-    #jumbo-head-1 {
-        font-size: 9rem;
-        font-weight:700;
-    }
-    
-    #jumbo-head-2{
-        font-size:5rem;
-        font-weight:400;
-    }
-    
-    #jumbo-head-3 {
-        font-size: 4.4rem;
-        font-weight: 300;
-    }
-     
-    .cursor {
-        font-weight:300;
-        font-size:7rem;
-    }
-}
-
-/* MOBILE STYLES */
-
-@media only screen and (max-width:767px){
-
-/* Sets margin for collapsed navbar*/
-    body{
-     margin-top:46.25px;
-    }
-    #jumbo-home{
-        background: linear-gradient(
-            rgba(52, 152, 219, 0.6), 
-            rgba(52, 152, 219, 0.6)
-          ),
-          url("../img/portrait-bg-2.jpg");
-        background-position:bottom right;
-        background-size:cover;
-        background-repeat:no-repeat;
-        overflow: hidden;
-        min-height:100vh;
-        margin:0px;
-        border-bottom:1px solid rgba(80,74,74);
-    }
-    #jumbo-home{
-        background-position:bottom right;
-    }
-
-    #jumbo-text-container{
-        margin:50px 0px 0px 20px;
-    }
-
-    #jumbo-head-1 {
-        font-size: 5rem;
-        font-weight:700;
-    }
-    
-    #jumbo-head-2{
-        font-size:3.5rem;
-        font-weight:400;
-    }
-    
-    #jumbo-head-3 {
-        font-size: 2.8rem;
-        font-weight: 300;
-        line-height:2rem;
-    }
-    #headline {
-        line-height:4rem;
-    }
-
-    #jumbo-head-3, #cursor3 {
-        line-height:1rem;
-    }
-     
-    .cursor {
-        font-weight:300;
-        font-size:7rem;
-    }
-}
