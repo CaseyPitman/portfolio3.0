@@ -582,7 +582,7 @@ p{
 
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 823px) 
+  and (max-device-height: 599px)  
   and (orientation: landscape) { 
 
 
@@ -622,8 +622,35 @@ p{
     }
 
 
+/* Tablet Styles */
 
 
+@media only screen 
+    and (min-device-width: 450px) {
+        #headline {
+            color: red;
+        }
+
+}
+
+@media only screen  
+    /* and (device-width: 450px) */
+    and (device-width: 600px)
+    and (device-height: 450px)
+    and (orientation: landscape) {
+        #headline {
+            color: red;
+        }
+
+        #portrait-content {
+            display: block;
+        }
+
+        #landscape-content {
+            display:none;
+        }
+
+    }
 
 
 
