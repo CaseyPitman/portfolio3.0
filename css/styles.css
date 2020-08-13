@@ -28,10 +28,11 @@ html{
 
 #landscape-content {
     background-image: url('../img/mobile-landscape-background.png');
-    background-size:contain;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: none;
     height: 100vh;
-
 }
 
 body{
@@ -580,7 +581,7 @@ p{
 /* MOBILE LANDSCAPE */
 
 @media only screen 
-  and (min-device-width: 375px) 
+  and (min-device-width: 320px) 
   and (max-device-width: 823px) 
   and (orientation: landscape) { 
 
@@ -596,38 +597,33 @@ p{
 }
 
 
-/* Landscape Phones - Rotate Request */
-@media only screen 
-  and (min-device-width: 450px) 
-  and (max-device-width: 600px) 
-  and (orientation: landscape){
-
-    #portrait-content {
-        display: block;
-    }
-
-    #landscape-content {
-        display:none;
-    }
-  }
-
 
   /* Pre-Iphone 6 / Gal S5 / Other very narrow phones  */
   @media only screen 
     and (max-device-width: 360px){
+
+        .work-sample-card {
+            height:auto;
+        }
+        .skills-text {
+            font-size:1.8rem;
+        }
         .link-button {
-           font-size:1.6rem;
+            margin:35px 0;
+            font-size:1.6rem;
+            width:45%;
+        }
+
+        .contact-info {
+            font-size:1.8rem;
+            width:90%;
         }
 
     }
 
-    /* Galaxy Fold */
 
-    @media only screen 
-        and (max-device-width: 280px){
 
-             
-        }
+
 
 
 
