@@ -334,7 +334,8 @@ p{
     background: rgba(236, 240, 241, 0.5);
     border:1px solid rgba(44,44,44);
     margin-top: 40px;
-    height:550px;
+    height:495px;
+    
 }
 
 .work-sample-img {
@@ -349,10 +350,7 @@ p{
     justify-content: center;
     align-items:center;
     flex-flow:row wrap;
-
-
     margin: 25px auto;
-
     width: 90%;
 }
 
@@ -364,7 +362,6 @@ p{
 }
 
 .sample-tool-list {
-    min-height:74px;
     width:100%;
 }
 
@@ -633,13 +630,16 @@ p{
 
 }
 
+
+/* surface duo landscape */
 @media only screen  
     /* and (device-width: 450px) */
     and (device-width: 600px)
     and (device-height: 450px)
     and (orientation: landscape) {
         #headline {
-            color: red;
+            color: yellow;
+            width: 65%;
         }
 
         #portrait-content {
@@ -649,6 +649,49 @@ p{
         #landscape-content {
             display:none;
         }
+
+        #sites-samples, 
+        #apps-samples {
+            display:flex;
+            justify-content: space-between;
+            align-items:center;
+            flex-flow: row wrap;
+        }
+
+        .work-sample-card {
+            height:550px;
+            width:45%;
+        }
+
+        .work-sample-card-title {
+            font-size:2rem;
+        }
+        
+        .sample-tool-list{
+
+            height: 102px;
+        }
+
+        .sample-tools {
+            font-size:1.6rem;
+            margin: 10px 5px 0 0;
+            
+        }
+        
+        .work-sample-card-text {
+            height: 140px;
+            font-size:1.6rem;
+        }
+        
+        .link-button {
+            font-size:1.4rem;
+           
+            width: 45%;
+        }
+
+       
+
+
 
     }
 
