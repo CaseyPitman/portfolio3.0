@@ -49,6 +49,6 @@ $(document).ready(function(){
     function clearCursor(){
         $("#cursor3").remove();
     }
-//FIRES TYPEWRITER AFTER PAGE LOAD
-$(window).on("load", typeWriter1);
 
+    //FIRES TYPEWRITER AFTER PAGE LOAD
+    $(window).on("load", typeWriter1);

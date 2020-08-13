@@ -21,11 +21,24 @@ html{
     font-size:10px;
 }
 
+#portrait-content {
+    display:block;
+    margin-top:46.25px;
+}
+
+#landscape-content {
+    background-image: url('../img/mobile-landscape-background.png');
+    background-size:contain;
+    display: none;
+    height: 100vh;
+
+}
+
 body{
     background-color:rgba(255,255,255);
     color:rgb(44, 44, 44);
     font-family: 'Roboto', sans-serif;
-    margin-top:46.25px;
+    /* margin-top:46.25px; */
 }
 
 h1,h2,h3,h4,h5,h6,p,a,li {
@@ -320,6 +333,7 @@ p{
     background: rgba(236, 240, 241, 0.5);
     border:1px solid rgba(44,44,44);
     margin-top: 40px;
+    height:550px;
 }
 
 .work-sample-img {
@@ -330,7 +344,14 @@ p{
 }
 
 .work-sample-card-content {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-flow:row wrap;
+
+
     margin: 25px auto;
+
     width: 90%;
 }
 
@@ -338,6 +359,11 @@ p{
     color:rgba(231, 76, 60);
     font-size: 2.6rem;
     font-weight:200;
+    width:100%;
+}
+
+.sample-tool-list {
+    min-height:74px;
     width:100%;
 }
 
@@ -360,6 +386,7 @@ p{
     font-size:1.8rem;
     line-height: 1.5;
     margin: 10px auto 20px;
+    height:110px
 }
 
 .work-sample-links{
@@ -556,41 +583,52 @@ p{
   and (min-device-width: 375px) 
   and (max-device-width: 823px) 
   and (orientation: landscape) { 
-    #headline {
-        width: 55%;
+
+
+    #portrait-content {
+        display: none;
     }
 
-    #jumbo-home{
-        background: linear-gradient(
-            rgba(52, 152, 219, 0.6), 
-            rgba(52, 152, 219, 0.6)
-          ),
-          url("../img/landscape-bg.jpg");
-        background-position:bottom right;
-        background-size:cover;
-        background-repeat:no-repeat;
-        overflow: hidden;
-        min-height:100vh;
-        margin:0px;
-        border-bottom:1px solid rgba(44,44,44);
+    #landscape-content {
+        display:block;
     }
 
-    #sites-samples, 
-    #apps-samples{
-        display:flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-flow: row wrap;
-    }
-
-    .work-sample-card{
-      
-        width:45%;
-    }
-
-    .link-button {
-        width: 45%;
- 
-    }
 }
 
+
+/* Landscape Phones - Rotate Request */
+@media only screen 
+  and (min-device-width: 450px) 
+  and (max-device-width: 600px) 
+  and (orientation: landscape){
+
+    #portrait-content {
+        display: block;
+    }
+
+    #landscape-content {
+        display:none;
+    }
+  }
+
+
+  /* Pre-Iphone 6 / Gal S5 / Other very narrow phones  */
+  @media only screen 
+    and (max-device-width: 360px){
+        .link-button {
+           font-size:1.6rem;
+        }
+
+    }
+
+    /* Galaxy Fold */
+
+    @media only screen 
+        and (max-device-width: 280px){
+
+             
+        }
+
+
+
+ 
