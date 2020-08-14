@@ -621,11 +621,26 @@ p{
 
 /* Tablet Styles */
 
-
+/* Surface Duo Portrait */
 @media only screen 
-    and (min-device-width: 450px) {
-        #headline {
-            color: red;
+    and (min-device-width: 450px)
+    and (max-width: 767px) {
+   
+        .work-sample-card-title {
+            font-size: 2.2rem;
+        }
+
+        .sample-tools {
+            font-size: 1.6rem;
+        }
+
+        .work-sample-card-text {
+            font-size: 1.6rem;
+            height: auto;
+        }
+
+        .link-button {
+            font-size:1.8rem;
         }
 
 }
@@ -638,7 +653,6 @@ p{
     and (device-height: 450px)
     and (orientation: landscape) {
         #headline {
-            color: yellow;
             width: 65%;
         }
 
@@ -668,7 +682,6 @@ p{
         }
         
         .sample-tool-list{
-
             height: 102px;
         }
 
@@ -685,13 +698,8 @@ p{
         
         .link-button {
             font-size:1.4rem;
-           
             width: 45%;
         }
-
-       
-
-
 
     }
 
