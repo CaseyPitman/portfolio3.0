@@ -16,8 +16,10 @@ $(document).ready(function(){
         i++;
         setTimeout(typeWriter1, 100);
         }   
-        setTimeout(typeWriter2, 1000);  
+        setTimeout(typeWriter2, 1500);  
     } 
+
+
     //LINE TWO OF TEXT
     let text2="My name is Casey."
     let j=0;
@@ -43,7 +45,7 @@ $(document).ready(function(){
         k++;
         setTimeout(typeWriter3, 1000);
         }  
-        setTimeout(clearCursor, 2000);
+        setTimeout(clearCursor, 2500);
     } 
     //REMOVE CURSOR
     function clearCursor(){

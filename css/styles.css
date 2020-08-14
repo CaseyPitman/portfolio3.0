@@ -39,24 +39,11 @@ body{
     background-color:rgba(255,255,255);
     color:rgb(44, 44, 44);
     font-family: 'Roboto', sans-serif;
-    /* margin-top:46.25px; */
+    
 }
 
 h1,h2,h3,h4,h5,h6,p,a,li {
  font-family: 'Roboto', sans-serif;
-}
-
-h1{
-    font-size:7rem;
-}
-
-
-h3 {
-    font-size:3.2rem;
-}
-
-h4 {
-    font-size:2.0rem;
 }
 
 p{
@@ -131,8 +118,8 @@ p{
 /* jumbo */
 #jumbo-home{
     background: linear-gradient(
-        rgba(52, 152, 219, 0.6), 
-        rgba(52, 152, 219, 0.6)
+        rgba(52, 152, 219, 0.7), 
+        rgba(52, 152, 219, 0.7)
       ),
       url("../img/portrait-bg-2.jpg");
     background-position:bottom right;
@@ -144,41 +131,47 @@ p{
     border-bottom:1px solid rgba(44,44,44);
 }
 
-#jumbo-container{
-  color:white;
+
+#headline-container {
+    color:white;
+    position:relative;
+    top: 100px;
+    left: 20px;
+    width:90%;
 }
 
-#jumbo-text-container{
-    margin:30px 0px 0px 20px;
+#head-1 {
+margin-bottom:20px;
 }
 
-#jumbo-head-1 {
-    font-size: 5rem;
-    font-weight:700;
+#jumbo-head-1,
+#cursor1 {
+    font-size: 11rem;
+    font-weight:300;
 }
 
-#jumbo-head-2{
-    font-size:3.5rem;
-    font-weight:400;
+
+#head-2 {
+    margin-bottom:5px;
 }
 
-#jumbo-head-3 {
-    font-size: 2.8rem;
-    font-weight: 300;
-    line-height:2rem;
+#jumbo-head-2, 
+#cursor2 {
+    font-size:4rem;
+    font-weight:300;
 }
 
-#headline {
-    line-height:4rem;
+
+#jumbo-head-3,
+#cursor3 {
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height:1.25;
 }
- 
-#jumbo-head-3, #cursor3 {
-    line-height:1rem;
-}
- 
+
+
 .cursor {
     font-weight:300;
-    font-size:7rem;
 }
 
 #cursor2, 
@@ -246,6 +239,7 @@ p{
 
 .skills-head {
     border-bottom: 1px solid rgba(231, 76, 60);
+    font-size:3rem;
     margin: 0 auto 20px;
     font-weight:300;
     color:rgba(231, 76, 60);
@@ -318,12 +312,17 @@ p{
 }
 
 #sites-samples {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-flow: row wrap;
     margin: 50px auto;
 }
 
 .work-sample-section-head{
     border-bottom: 1px solid rgba(231, 76, 60);
     margin: 0 auto 20px;
+    font-size:3rem;
     font-weight:300;
     color:rgba(231, 76, 60);
     width: 100%;
@@ -335,7 +334,7 @@ p{
     border:1px solid rgba(44,44,44);
     margin-top: 40px;
     height:495px;
-    
+    width:100%;
 }
 
 .work-sample-img {
@@ -424,8 +423,8 @@ p{
 /* Contact */
 #contact {
     background: linear-gradient(
-        rgba(81,140,202, 0.75), 
-        rgba(81,140,202, 0.75)
+        rgba(52, 152, 219, 0.7), 
+        rgba(52, 152, 219, 0.7)
       ),
       url("../img/footer-bg-hz.jpg");
     background-size:cover;
@@ -554,8 +553,8 @@ p{
 
 #thanks-content-container {
     background: linear-gradient(
-        rgba(52, 152, 219, 0.6), 
-        rgba(52, 152, 219, 0.6)
+        rgba(52, 152, 219, 0.7), 
+        rgba(52, 152, 219, 0.7)
       ),
       url("../img/footer-bg-hz.jpg");
     background-size:cover;
@@ -645,14 +644,13 @@ p{
 
 }
 
-
 /* surface duo landscape */
 @media only screen  
     /* and (device-width: 450px) */
     and (device-width: 600px)
     and (device-height: 450px)
     and (orientation: landscape) {
-        #headline {
+        #headline-container {
             width: 65%;
         }
 
@@ -702,6 +700,43 @@ p{
         }
 
     }
+
+    /*  Ipad and similarly-sized tablets */
+
+@media only screen
+    and (min-width: 768px)
+    and (orientation: portrait){
+        #headline-container  {
+            color: yellow; 
+        
+        }
+
+        #jumbo-text-container{
+            margin:200px auto 20px;
+            width: 70%;
+        }
+        
+        #jumbo-head-1 {
+            font-size: 7rem;
+            font-weight:700;
+        }
+        
+        #jumbo-head-2{
+            font-size: 5rem;
+            font-weight:400;
+        }
+        
+        #jumbo-head-3 {
+            font-size: 2.8rem;
+            font-weight: 300;
+          
+        }
+
+
+
+
+    }
+
 
 
 
