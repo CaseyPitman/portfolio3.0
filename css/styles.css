@@ -135,7 +135,7 @@ p{
 #headline-container {
     color:white;
     position:relative;
-    top: 100px;
+    top: 88px;
     left: 20px;
     width:90%;
 }
@@ -150,7 +150,6 @@ margin-bottom:20px;
     font-weight:300;
 }
 
-
 #head-2 {
     margin-bottom:5px;
 }
@@ -161,14 +160,12 @@ margin-bottom:20px;
     font-weight:300;
 }
 
-
 #jumbo-head-3,
 #cursor3 {
     font-size: 2.4rem;
     font-weight: 400;
     line-height:1.25;
 }
-
 
 .cursor {
     font-weight:300;
@@ -598,6 +595,43 @@ margin-bottom:20px;
   @media only screen 
     and (max-device-width: 360px){
 
+        #headline-container {
+        
+  
+            top: 50px;
+
+            width:90%;
+        }
+        
+        #head-1 {
+        margin-bottom:15px;
+        }
+        
+        #jumbo-head-1,
+        #cursor1 {
+            font-size: 8rem;
+            font-weight:300;
+        }
+        
+        #head-2 {
+            margin-bottom:5px;
+        }
+        
+        #jumbo-head-2, 
+        #cursor2 {
+            font-size:3.2rem;
+            font-weight:300;
+        }
+        
+        #jumbo-head-3,
+        #cursor3 {
+            font-size: 2rem;
+            font-weight: 400;
+            line-height:1.25;
+        }
+
+    
+
         .work-sample-card {
             height:auto;
         }
@@ -624,7 +658,34 @@ margin-bottom:20px;
 @media only screen 
     and (min-device-width: 450px)
     and (max-width: 767px) {
-   
+        #headline-container {
+            top:40px;
+        }
+
+        #head-1 {
+            margin-bottom:10px
+        }
+
+        #jumbo-head-1, 
+        #cursor1  {
+            font-size:9rem;
+        }
+        
+        #jumbo-head-2, 
+        #cursor2 {
+            font-size:3.6rem;
+        }
+
+        #head-3 {
+            width:80%;
+        }
+
+        #jumbo-head-3, 
+        #cursor3 {
+            font-size:2rem;
+            
+        }
+
         .work-sample-card-title {
             font-size: 2.2rem;
         }
@@ -651,6 +712,7 @@ margin-bottom:20px;
     and (device-height: 450px)
     and (orientation: landscape) {
         #headline-container {
+            
             width: 65%;
         }
 
@@ -731,9 +793,6 @@ margin-bottom:20px;
             font-weight: 300;
           
         }
-
-
-
 
     }
 
