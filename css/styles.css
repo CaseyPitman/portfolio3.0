@@ -147,23 +147,23 @@ margin-bottom:20px;
 #jumbo-head-1,
 #cursor1 {
     font-size: 11rem;
-    font-weight:300;
+    font-weight:100;
 }
 
 #head-2 {
-    margin-bottom:5px;
+    margin-bottom:10px;
 }
 
 #jumbo-head-2, 
 #cursor2 {
     font-size:4rem;
-    font-weight:300;
+    font-weight:100;
 }
 
 #jumbo-head-3,
 #cursor3 {
     font-size: 2.4rem;
-    font-weight: 400;
+    font-weight: 300;
     line-height:1.25;
 }
 
@@ -733,16 +733,12 @@ margin-bottom:20px;
         }
 
         .work-sample-card {
-            height:550px;
+            height:auto;
             width:45%;
         }
 
         .work-sample-card-title {
             font-size:2rem;
-        }
-        
-        .sample-tool-list{
-            height: 102px;
         }
 
         .sample-tools {
@@ -752,8 +748,8 @@ margin-bottom:20px;
         }
         
         .work-sample-card-text {
-            height: 140px;
-            font-size:1.6rem;
+            height: 110px; 
+            font-size:1.5rem;
         }
         
         .link-button {
@@ -763,38 +759,40 @@ margin-bottom:20px;
 
     }
 
-    /*  Ipad and similarly-sized tablets */
+/*  Ipad and similarly-sized tablets */
 
+/* Portrait */
 @media only screen
     and (min-width: 768px)
     and (orientation: portrait){
-        #headline-container  {
-            color: yellow; 
         
-        }
-
-        #jumbo-text-container{
-            margin:200px auto 20px;
-            width: 70%;
-        }
-        
-        #jumbo-head-1 {
-            font-size: 7rem;
-            font-weight:700;
-        }
-        
-        #jumbo-head-2{
-            font-size: 5rem;
-            font-weight:400;
-        }
-        
-        #jumbo-head-3 {
-            font-size: 2.8rem;
-            font-weight: 300;
-          
-        }
-
+    #headline-container {
+        left: 33px;
+        width:85%;
     }
+
+    #jumbo-head-1,
+    #cursor1 {
+        font-size: 15rem;
+        
+    }
+
+    #jumbo-head-2, 
+    #cursor2 {
+        font-size:7rem;
+    }
+
+    #jumbo-head-3,
+    #cursor3 {
+        font-size: 4rem;
+       
+        line-height:1.25;
+    }
+
+
+
+
+}
 
 
 
