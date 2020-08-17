@@ -598,7 +598,7 @@ margin-bottom:20px;
     }
 
     #headline-container {
-        color:lemonchiffon;
+       
         left: 44px;
         top:0px;
         
@@ -621,20 +621,44 @@ margin-bottom:20px;
         line-height:1.25;
     }
 
+    #about-me, 
+    #my-skills, 
+    #projects {
+        height:auto;
+        margin: auto;
+        scroll-margin-top: 30px 
+    }
+
+    #about-content-container {
+        margin: 70px 0;
+        flex-flow: row-reverse
+    }
+
+    #about-text {
+        width:60%;
+    }
+
+    #skills-intro-text {
+        margin: 70px auto 50px;
+    }
+
+    .work-sample-card {
+        height:auto;
+    }
+    
+    .work-sample-card-text {
+        height: auto;
+    }
+    
 
 }
-
-
 
   /* Pre-Iphone 6 / Gal S5 / Other very narrow phones  */
   @media only screen 
     and (max-device-width: 360px){
 
         #headline-container {
-        
-  
             top: 50px;
-
             width:90%;
         }
         
@@ -685,112 +709,6 @@ margin-bottom:20px;
 
 /* Tablet Styles */
 
-/* Surface Duo Portrait */
-/* @media only screen 
-    and (min-device-width: 450px)
-    and (max-width: 767px) {
-        #headline-container {
-            top:40px;
-        }
-
-        #head-1 {
-            margin-bottom:10px
-        }
-
-        #jumbo-head-1, 
-        #cursor1  {
-            font-size:9rem;
-        }
-        
-        #jumbo-head-2, 
-        #cursor2 {
-            font-size:3.6rem;
-        }
-
-        #head-3 {
-            width:80%;
-        }
-
-        #jumbo-head-3, 
-        #cursor3 {
-            font-size:2rem;
-            
-        }
-
-        .work-sample-card-title {
-            font-size: 2.2rem;
-        }
-
-        .sample-tools {
-            font-size: 1.6rem;
-        }
-
-        .work-sample-card-text {
-            font-size: 1.6rem;
-            height: auto;
-        }
-
-        .link-button {
-            font-size:1.8rem;
-        }
-
-} */
-
-/* surface duo landscape */
-@media only screen  
-    /* and (device-width: 450px) */
-    and (device-width: 600px)
-    and (device-height: 450px)
-    and (orientation: landscape) {
-        #headline-container {
-            
-            width: 65%;
-        }
-
-        #portrait-content {
-            display: block;
-        }
-
-        #landscape-content {
-            display:none;
-        }
-
-        #sites-samples, 
-        #apps-samples {
-            display:flex;
-            justify-content: space-between;
-            align-items:center;
-            flex-flow: row wrap;
-        }
-
-        .work-sample-card {
-            height:auto;
-            width:45%;
-        }
-
-        .work-sample-card-title {
-            font-size:2rem;
-        }
-
-        .sample-tools {
-            font-size:1.6rem;
-            margin: 10px 5px 0 0;
-            
-        }
-        
-        .work-sample-card-text {
-            height: 110px; 
-            font-size:1.5rem;
-        }
-        
-        .link-button {
-            font-size:1.4rem;
-            width: 45%;
-        }
-
-    }
-
-/*  Ipad and similarly-sized tablets */
 
 /* Portrait */
 @media only screen
@@ -1131,6 +1049,4 @@ margin-bottom:20px;
     #skills-container {
         margin-bottom:150px;
     }
-
-
 }
