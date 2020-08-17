@@ -25,14 +25,14 @@ html{
     margin-top:46.25px;
 }
 
-#landscape-content {
+/* #landscape-content {
     background-image: url('../img/mobile-landscape-background.png');
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
     display: none;
     height: 100vh;
-}
+} */
 
 body{
     background-color:rgba(255,255,255);
@@ -586,15 +586,41 @@ margin-bottom:20px;
   and (min-device-width: 320px) 
   and (max-device-height: 599px)  
   and (orientation: landscape) { 
-
-
-    #portrait-content {
-        display: none;
+    #jumbo-home{
+        background: linear-gradient(
+        rgba(52, 152, 219, 0.7), 
+        rgba(52, 152, 219, 0.7)
+        ),
+        url("../img/landscape-bg.jpg");
+        background-position:bottom right;
+        background-size:cover;
+        background-repeat:no-repeat;
     }
 
-    #landscape-content {
-        display:block;
+    #headline-container {
+        color:lemonchiffon;
+        left: 44px;
+        top:0px;
+        
     }
+
+    #jumbo-head-1,
+    #cursor1 {
+        font-size: 5rem;
+        
+    }
+
+    #jumbo-head-2, 
+    #cursor2 {
+        font-size: 3rem;
+    }
+
+    #jumbo-head-3,
+    #cursor3 {
+        font-size: 2rem;
+        line-height:1.25;
+    }
+
 
 }
 
@@ -660,7 +686,7 @@ margin-bottom:20px;
 /* Tablet Styles */
 
 /* Surface Duo Portrait */
-@media only screen 
+/* @media only screen 
     and (min-device-width: 450px)
     and (max-width: 767px) {
         #headline-container {
@@ -708,7 +734,7 @@ margin-bottom:20px;
             font-size:1.8rem;
         }
 
-}
+} */
 
 /* surface duo landscape */
 @media only screen  
