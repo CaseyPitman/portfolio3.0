@@ -18,6 +18,8 @@ white                               rgba(236, 240, 241)
 /* GLOBAL */
 html{
     font-size:10px;
+    max-width:1600px;
+    margin:auto;
 }
 
 #portrait-content {
