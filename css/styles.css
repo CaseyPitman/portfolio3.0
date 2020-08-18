@@ -18,7 +18,6 @@ white                               rgba(236, 240, 241)
 /* GLOBAL */
 html{
     font-size:10px;
-    /* max-width:1440px; */
     margin:auto;
 }
 
@@ -868,6 +867,14 @@ margin-bottom:20px;
             padding:0 0 50px;
         }
 
+        #projects-container {
+            width: 66%;
+        }
+
+        .link-button {
+            font-size:1.8rem;
+        }
+
 
         .work-sample-section-head {
             margin: 20px 0 -50px 0;
@@ -1008,6 +1015,7 @@ margin-bottom:20px;
 
         #projects-container {
             margin:100px auto 100px;
+            width: 66%;
 
         }
 
@@ -1030,7 +1038,7 @@ margin-bottom:20px;
  
 /* ----------- Retina Screens ----------- */
 @media screen 
-  and (min-device-width: 1400px) { 
+  and (min-width: 1400px) { 
  
     #jumbo-home{
         background: linear-gradient(
@@ -1041,6 +1049,10 @@ margin-bottom:20px;
         background-position:bottom right;
         background-size:cover;
         background-repeat:no-repeat;
+    }
+
+    #headline-container {
+        color:red;
     }
 
     #about-content-container {
@@ -1059,5 +1071,13 @@ margin-bottom:20px;
 
     #skills-container {
         margin-bottom:150px;
+    }
+
+    #projects-container {
+        width:66%;
+    }
+
+    #contact-container {
+        max-width:600px;
     }
 }
