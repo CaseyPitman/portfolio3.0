@@ -18,7 +18,7 @@ white                               rgba(236, 240, 241)
 /* GLOBAL */
 html{
     font-size:10px;
-    max-width:1440px;
+    /* max-width:1440px; */
     margin:auto;
 }
 
@@ -1042,7 +1042,7 @@ margin-bottom:20px;
         background-size:cover;
         background-repeat:no-repeat;
     }
-    
+
     #about-content-container {
         margin: 100px auto 200px;
         flex-flow: row-reverse;
