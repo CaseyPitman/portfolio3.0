@@ -1032,8 +1032,17 @@ margin-bottom:20px;
 @media screen 
   and (min-device-width: 1400px) { 
  
-
-
+    #jumbo-home{
+        background: linear-gradient(
+        rgba(52, 152, 219, 0.7), 
+        rgba(52, 152, 219, 0.7)
+        ),
+        url("../img/landscape-bg.jpg");
+        background-position:bottom right;
+        background-size:cover;
+        background-repeat:no-repeat;
+    }
+    
     #about-content-container {
         margin: 100px auto 200px;
         flex-flow: row-reverse;
