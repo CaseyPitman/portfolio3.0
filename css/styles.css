@@ -50,28 +50,25 @@ p{
 .drop-cap{
     color: rgba(231, 76, 60);
     font-size: 4rem;
+    font-variant: small-caps;
     font-weight:300;
     line-height:0;
-    font-variant: small-caps;
 }
 
 .red-icon {
-    font-size:5rem;
     color:rgba(231, 76, 60);
+    font-size:5rem;
 }
 
 .red-text {
     color:rgba(231, 76, 60);
 }
 
-.btn, .card, input, textarea {     /*Get rid of Bootstrap rounded corner defaults*/
+.btn, .card, input, textarea {    
     border-radius:0 !important;
 }
 
-.btn:hover{
-    transform: scale(1.05);
-    color:white;
-}
+
 
 #main-content-container {
     display:flex;
@@ -88,9 +85,9 @@ p{
 }
 
 .close-bar{
+    color:rgba(255,255,255);
     font-size:2rem;
     margin-left:10px;
-    color:rgba(255,255,255);
 }
 
 .close-bar:visited { 
@@ -129,8 +126,8 @@ p{
 #headline-container {
     color:white;
     position:relative;
-    top: 66px;
     left: 20px;
+    top: 66px;
     width:90%;
 }
 
@@ -172,7 +169,6 @@ p{
 #about-me {
     border-bottom: 1px solid rgba(44, 44, 44);
     height:auto;
-    /* min-height:100vh; */
     margin: 50px auto;
     scroll-margin-top: 90px 
 }
@@ -195,12 +191,12 @@ p{
 }
 
 #casey-portrait{
-    display: block;
-    max-width:200px;
-    height:auto;
     border:1px solid rgba(44, 44, 44);
     border-radius: 50%;
+    display: block;
+    height:auto;
     margin:50px auto;
+    max-width:200px;
     padding:0; 
 }
 
@@ -208,10 +204,8 @@ p{
 #my-skills {
     border-bottom: 1px solid rgba(44, 44, 44);
     height:auto;
-    /* min-height:100vh; */
-    scroll-margin-top: 90px ;
-
     margin: 50px auto 0;
+    scroll-margin-top: 90px ;
 }
 
 #skills-container {
@@ -220,8 +214,8 @@ p{
 }
 
 #skills-icon{
-    transform:rotate(180deg);
     color:rgba(231, 76, 60);
+    transform:rotate(180deg);
 }
 
 .skill-group-head{
@@ -230,10 +224,10 @@ p{
 
 .skills-head {
     border-bottom: 1px solid rgba(231, 76, 60);
-    font-size:3rem;
-    margin: 0 auto 20px;
-    font-weight:300;
     color:rgba(231, 76, 60);
+    font-size:3rem;
+    font-weight:300;
+    margin: 0 auto 20px;
     width: 100%;
 }
 
@@ -244,14 +238,14 @@ p{
 #skill-proficient, 
 #skill-exposed {
     display:flex;
-    /* justify-content: space-between; */
+    justify-content: center;
     align-items: center;
     flex-flow: row wrap;
 }
 
 .skill-list{
-    list-style:none;
     display:block;
+    list-style:none;
     margin: 20px auto;
     padding:0;
 }
@@ -365,19 +359,19 @@ p{
 }
 
 .sample-tools::before{
-    content: "\2022";
     color: rgba(231, 76, 60);
-    font-weight: bold;
+    content: "\2022";
     display: inline-block;
+    font-weight: bold;
     width:1em;
 }
 
 .work-sample-card-text {
     font-size:1.8rem;
+    height:110px;
     line-height: 1.5;
     margin: 10px 0 20px;
     width:100%;
-    height:110px
 }
 
 .work-sample-links{
@@ -514,8 +508,8 @@ p{
 }
 
 .contact-info:hover{
-    text-decoration:none;
     color:rgb(255, 255, 255);
+    text-decoration:none;
 }
 
 #social-media-info{
@@ -631,7 +625,6 @@ p{
     
     .work-sample-card {
         height:auto;
-     
         width:60%;
     }
     
@@ -643,21 +636,17 @@ p{
     .link-button {
         font-size: 1.6rem;
     }
-    
-
 }
 
   /* Pre-Iphone 6 / Gal S5 / Other very narrow phones  */
   @media only screen 
     and (max-device-width: 360px){
 
-        
         #headline-container {
             top: 50px;
             width:90%;
         }
         
-    
         #jumbo-head-1,
         #cursor1 {
             font-size: 8rem;
@@ -682,8 +671,8 @@ p{
             font-size:1.8rem;
         }
         .link-button {
-            margin:35px 0;
             font-size:1.6rem;
+            margin:35px 0;
             width:45%;
         }
 
@@ -705,8 +694,8 @@ p{
     {
         
     #headline-container {
-        top: 44px;
         left: 33px;
+        top: 44px;
         width:85%;
     }
 
@@ -747,8 +736,6 @@ p{
         width:66%;
     }
     
-    /* SKILLS */
-
     /* PROJECTS */
 
     #projects-container {
@@ -850,7 +837,6 @@ p{
             font-size: 4rem;
         }
 
-
         #my-skills{
             padding:0 0 50px;
         }
@@ -862,7 +848,6 @@ p{
         .link-button {
             font-size:1.8rem;
         }
-
 
         .work-sample-section-head {
             margin: 20px 0 -50px 0;
@@ -883,28 +868,24 @@ p{
             margin: 10px auto 0;
         }
 
-
         #contact-container {
             width:66%;
         }
 
         .contact-info{
             font-size: 2.6rem;
-
         }
 
         #copyright{
             font-size: 2rem;
         }
-
     }
 
 /* LARGE TABLETS (IPAD - PRO) PORTRAT */
 
 @media only screen
     and (min-device-width: 1024px)
-    and (orientation: portrait)
-    {
+    and (orientation: portrait){
 
         #headline-container {
             left: 44px;
@@ -915,7 +896,6 @@ p{
         #jumbo-head-1,
         #cursor1 {
             font-size: 17rem;
-            
         }
     
         #jumbo-head-2, 
@@ -938,7 +918,6 @@ p{
         #contact-container {
             width:50%;
         }
-
     }
 
 
@@ -959,7 +938,6 @@ p{
             background-repeat:no-repeat;
         }
 
-
         #headline-container {
             left: 55px;
             top: 99px;
@@ -969,7 +947,6 @@ p{
         #jumbo-head-1,
         #cursor1 {
             font-size: 17rem;
-            
         }
     
         #jumbo-head-2, 
@@ -1046,8 +1023,8 @@ p{
     }
 
     #about-content-container {
-        margin: 100px auto 200px;
         flex-flow: row-reverse;
+        margin: 100px auto 200px;
     }
 
     #about-text{
