@@ -50,7 +50,7 @@ p{
 .drop-cap{
     color: rgba(231, 76, 60);
     font-size: 4rem;
-    font-weight:100;
+    font-weight:300;
     line-height:0;
     font-variant: small-caps;
 }
@@ -232,7 +232,7 @@ p{
     border-bottom: 1px solid rgba(231, 76, 60);
     font-size:3rem;
     margin: 0 auto 20px;
-    font-weight:100;
+    font-weight:300;
     color:rgba(231, 76, 60);
     width: 100%;
 }
@@ -316,7 +316,7 @@ p{
     border-bottom: 1px solid rgba(231, 76, 60);
     margin: 0 auto 20px;
     font-size:3rem;
-    font-weight:100;
+    font-weight:300;
     color:rgba(231, 76, 60);
     width: 100%;
 }
@@ -349,7 +349,7 @@ p{
 .work-sample-card-title {
     color:rgba(231, 76, 60);
     font-size: 2.6rem;
-    font-weight:200;
+    font-weight:300;
     width:100%;
 }
 
