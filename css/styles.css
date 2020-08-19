@@ -26,15 +26,6 @@ html{
     margin-top:46.25px;
 }
 
-/* #landscape-content {
-    background-image: url('../img/mobile-landscape-background.png');
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: none;
-    height: 100vh;
-} */
-
 body{
     background-color:rgba(255,255,255);
     color:rgb(44, 44, 44);
@@ -138,14 +129,11 @@ p{
 #headline-container {
     color:white;
     position:relative;
-    top: 88px;
+    top: 66px;
     left: 20px;
     width:90%;
 }
 
-#head-1 {
-margin-bottom:20px;
-}
 
 #jumbo-head-1,
 #cursor1 {
@@ -581,6 +569,7 @@ margin-bottom:20px;
     font-size:2rem;
 }
 
+
 /* MOBILE LANDSCAPE */
 
 @media only screen 
@@ -599,16 +588,13 @@ margin-bottom:20px;
     }
 
     #headline-container {
-       
         left: 44px;
         top:0px;
-        
     }
 
     #jumbo-head-1,
     #cursor1 {
         font-size: 5rem;
-        
     }
 
     #jumbo-head-2, 
@@ -638,17 +624,24 @@ margin-bottom:20px;
     #about-text {
         width:60%;
     }
-
+    
     #skills-intro-text {
         margin: 70px auto 50px;
     }
-
+    
     .work-sample-card {
         height:auto;
+     
+        width:60%;
     }
     
     .work-sample-card-text {
         height: auto;
+        font-size: 1.6rem;
+    }
+    
+    .link-button {
+        font-size: 1.6rem;
     }
     
 
@@ -658,19 +651,16 @@ margin-bottom:20px;
   @media only screen 
     and (max-device-width: 360px){
 
+        
         #headline-container {
             top: 50px;
             width:90%;
         }
         
-        #head-1 {
-        margin-bottom:15px;
-        }
-        
+    
         #jumbo-head-1,
         #cursor1 {
             font-size: 8rem;
-            font-weight:300;
         }
         
         #head-2 {
@@ -680,16 +670,13 @@ margin-bottom:20px;
         #jumbo-head-2, 
         #cursor2 {
             font-size:3.2rem;
-            font-weight:300;
         }
         
         #jumbo-head-3,
         #cursor3 {
             font-size: 2rem;
-            font-weight: 400;
             line-height:1.25;
         }
-
 
         .skills-text {
             font-size:1.8rem;
@@ -718,6 +705,7 @@ margin-bottom:20px;
     {
         
     #headline-container {
+        top: 44px;
         left: 33px;
         width:85%;
     }
@@ -887,6 +875,14 @@ margin-bottom:20px;
             width:45%;
         }
 
+        .sample-tools {
+            margin: 10px 15px 0 0 ;
+        }
+
+        .work-sample-links {
+            margin: 10px auto 0;
+        }
+
 
         #contact-container {
             width:66%;
@@ -912,7 +908,7 @@ margin-bottom:20px;
 
         #headline-container {
             left: 44px;
-            top: 333px;
+            top: 33px;
             width:70%;
         }
     
@@ -1025,8 +1021,6 @@ margin-bottom:20px;
             top: 100px;
         }
 
-
-
         #contact-container {
             width:50%;
         }
@@ -1050,7 +1044,6 @@ margin-bottom:20px;
         background-size:cover;
         background-repeat:no-repeat;
     }
-
 
     #about-content-container {
         margin: 100px auto 200px;
