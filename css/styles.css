@@ -538,6 +538,39 @@ p{
 }
 
 
+/* OTHER PROJECTS PAGE */
+#projects-header {
+    background: linear-gradient(
+        rgba(52, 152, 219, 0.7), 
+        rgba(52, 152, 219, 0.7)
+      ),
+      url("../img/footer-bg-hz.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+
+    min-height:100vh;
+    color:rgb(255, 255, 255);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+#other-projects-headline {
+    margin: 100px auto;
+    text-align: center;
+    width: 100%;
+}
+
+.project {
+    border: 1px solid red;
+    margin: 20px;
+    width: 20%;
+}
+
+
+
 /*THANK YOU PAGE*/
 
 #thanks-content-container {
