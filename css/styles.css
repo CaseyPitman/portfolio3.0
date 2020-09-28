@@ -487,7 +487,7 @@ p{
     width:100%;
 }
 
-#submit-btn{
+.contact-btn{
     border: 1px solid rgba(231, 76, 60, 0.8);
     background-color:rgba(231, 76, 60, 0.8);
     color:white;
@@ -497,14 +497,19 @@ p{
     width:100%;
 }
 
-#submit-btn:hover {
+.contact-btn:hover {
     background-color:rgba(231, 76, 60);
     border: 1px solid rgba(231, 76, 60);
 }
 
-#submit-btn:focus {
+.contact-btn:focus {
     background-color:rgba(231, 76, 60);
 }
+
+#resume {
+    margin: 20px auto 0;
+}
+
 
 .contact-info{
     color:rgb(255, 255, 255);
@@ -547,23 +552,6 @@ p{
 
 
 /* OTHER PROJECTS PAGE */
-/* #projects-header {
-    background: linear-gradient(
-        rgba(52, 152, 219, 0.7), 
-        rgba(52, 152, 219, 0.7)
-      ),
-      url("../img/footer-bg-hz.jpg");
-    background-size:cover;
-    background-repeat:no-repeat;
-
-    min-height:100vh;
-    color:rgb(255, 255, 255);
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-} */
 
 #more-projects-main {
     margin:46.25px auto;
