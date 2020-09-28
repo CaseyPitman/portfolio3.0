@@ -557,17 +557,18 @@ p{
     flex-flow: row wrap;
 }
 
-#other-projects-headline {
-    margin: 100px auto;
-    text-align: center;
-    width: 100%;
+#other-projects-main {
+    margin:46.25px auto;
+    min-height:100vh;
+    width: 90%;
 }
 
-.project {
-    border: 1px solid red;
-    margin: 20px;
-    width: 20%;
+#other-projects-section-head {
+    margin-top:100px;
 }
+
+
+
 
 
 
