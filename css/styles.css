@@ -344,7 +344,7 @@ p{
 .sample-tools {
     display: inline-block;
     margin: 10px 20px 0 0;
-    font-size:1.8rem;
+    font-size:2rem;
     font-weight:700;
 }
 
@@ -357,7 +357,7 @@ p{
 }
 
 .work-sample-card-text {
-    font-size:1.8rem;
+    font-size:1.6rem;
     height:110px;
     line-height: 1.5;
     margin: 10px 0 20px;
@@ -376,7 +376,7 @@ p{
     border: 1px solid rgba(231, 76, 60);
     background:transparent;
     color: rgba(231, 76, 60);
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-weight: 300;
     padding: 5px 10px;
     text-align: center;
@@ -559,9 +559,6 @@ p{
 }
 
 
-
-
-
 /*THANK YOU PAGE*/
 
 #thanks-content-container {
@@ -605,6 +602,10 @@ p{
         background-repeat:no-repeat;
     }
 
+    p {
+        font-size: 1.6rem;
+    }
+
     #headline-container {
         left: 44px;
         top:0px;
@@ -634,6 +635,10 @@ p{
         scroll-margin-top: 30px 
     }
 
+    #projects-container {
+        margin-top: 40px; 
+    }
+
     #about-content-container {
         margin: 70px 0;
         flex-flow: row-reverse
@@ -649,7 +654,8 @@ p{
     
     .work-sample-card {
         height:auto;
-        width:60%;
+        margin: 30px auto;
+        width:40%;
     }
     
     .work-sample-card-text {
@@ -659,6 +665,15 @@ p{
     
     .link-button {
         font-size: 1.6rem;
+    }
+
+    #more-projects-link {
+        margin:0 auto 50px;
+        width: 60%;
+    }
+
+    .skill-item {
+        height: 200px;
     }
 }
 
