@@ -222,62 +222,50 @@ p{
     font-weight:100;
 }
 
-.skills-head {
-    border-bottom: 1px solid rgba(231, 76, 60);
-    color:rgba(231, 76, 60);
-    font-size:3rem;
-    font-weight:300;
-    margin: 0 auto 20px;
-    width: 100%;
-}
 
 #skills-intro-text{
-    margin: 50px auto;
+    margin: 50px auto 25px;
 }
 
-#skill-proficient, 
-#skill-exposed {
+#skills{
     display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.skill-item{
+    height: 100%;
+    min-height: 130px;
+    width: 26%;
+    position: relative;
+
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
 }
 
-.skill-list{
-    display:block;
-    list-style:none;
-    margin: 20px auto;
-    padding:0;
+.skill-item-logo {
+    display: block;
+    height:auto;
+    margin: auto;
+    width: 50%;
 }
 
-.left {
-    justify-self: start;
-    width: 60%;
-}
 
-.right {
-    justify-self: flex-end;
-    width:40%
-}
+.skill-item-text {
+    position: absolute;
+    bottom:0;
 
-.skill-list li::before{
-    content: "\2022";
-    color: rgba(231, 76, 60);
+    color:rgba(44, 44, 44); 
     font-weight: bold;
-    display: inline-block;
-    width:1em;
+    margin:0;
+    width:100%;
+    text-align: center;
+
 }
 
-.skills-text {
-
-    font-size:2.2rem;
-    font-weight: bold;
-    line-height:1.5;
-}
-
-#skill-exposed {
-    margin: 25px auto;
-}
 
 /* projects */
 #projects{
