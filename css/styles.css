@@ -286,14 +286,13 @@ p{
 #projects-icon{
     transform:rotate(270deg);
 }
-#sites-samples, 
-#apps-samples {
+#samples{
     display:flex;
     justify-content:space-between;
     align-items:center;
     flex-flow: row wrap;
     margin: 50px auto 0;
-
+    width:100%;
 }
 
 .work-sample-section-head{
@@ -649,17 +648,25 @@ p{
     }
     
     #skills-intro-text {
-        margin: 70px auto 50px;
+        margin: 70px auto 25px;
     }
     
     .work-sample-card {
-        height:auto;
+        height:445px;
         margin: 30px auto;
         width:40%;
     }
+
+    .sample-tools {
+        font-size:1.6rem;
+    }
+
+    .work-sample-card-title {
+        font-size:2.4rem;
+    }
     
     .work-sample-card-text {
-        height: auto;
+        height: 96px;
         font-size: 1.6rem;
     }
     
@@ -669,11 +676,15 @@ p{
 
     #more-projects-link {
         margin:0 auto 50px;
-        width: 60%;
+        width: 90%;
     }
 
     .skill-item {
         height: 200px;
+    }
+
+    .skill-item-logo {
+        width:42%;
     }
 }
 
@@ -793,6 +804,10 @@ p{
        width:45%;
     }
 
+    .sample-tools {
+        font-size: 1.8rem;
+    }
+
     #more-projects-link{
          font-size: 3rem;
          margin: 50px auto 0; 
@@ -814,7 +829,7 @@ p{
  
 }
 
-/* Landscape */
+/* Tabler Landscape */
 
 @media only screen
     and (min-width: 1024px)
@@ -852,15 +867,18 @@ p{
             height:auto;
             min-height:98vh;
             margin:0 auto;
+            padding-bottom: 50px;
             scroll-margin-top: 30px 
         }
     
         #about-container,
-        #skills-container {
+        #skills-container,
+        #projects-container {
+
             position: relative;
             top: 50px;
             margin: 0 auto;
-            width:66%;
+            width:90%;
         }
 
         #about-content-container {
@@ -882,15 +900,15 @@ p{
         }
 
         #my-skills{
-            padding:0 0 50px;
-        }
-
-        #projects-container {
-            width: 66%;
+            padding:0 0 100px;
         }
 
         .link-button {
             font-size:1.8rem;
+        }
+
+        #samples {
+            margin: 0px auto;
         }
 
         .work-sample-section-head {
@@ -910,6 +928,18 @@ p{
 
         .work-sample-links {
             margin: 10px auto 0;
+        }
+
+        .skill-item {
+            min-height: 170px;
+        }
+
+        .skill-item-logo {
+            width:33%;
+        }
+
+        #more-projects-link {
+            margin:50px auto ;
         }
 
         #contact-container {
