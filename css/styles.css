@@ -8,7 +8,6 @@ Red                                 rgba(231, 76, 60);
 white                               rgba(236, 240, 241)
  */
 
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -201,7 +200,6 @@ p{
 
 /* SKILLS */
 #my-skills {
-    /* border-bottom: 1px solid rgba(44, 44, 44); */
     height:auto;
     margin: 50px auto 0;
     scroll-margin-top: 90px ;
@@ -270,14 +268,11 @@ p{
 #projects{
     border-bottom: 1px solid rgba(44, 44, 44);
     height:auto;
-    /* min-height:100vh; */
-    /* margin: 50px auto 0; */
     margin: auto;
     scroll-margin-top: 90px ;
 }
 
 #projects-container {
-    /* margin: 50px auto; */
     margin: auto;
     width:90%;
 }
@@ -285,6 +280,7 @@ p{
 #projects-icon{
     transform:rotate(270deg);
 }
+
 #samples{
     display:flex;
     justify-content:space-between;
@@ -393,10 +389,6 @@ p{
     text-decoration: none;
 }
 
-#review {
-    display:none;
-}
-
 #more-projects-link{
     font-size: 2.4rem;
     margin: 20px auto 20px;
@@ -496,7 +488,6 @@ p{
 #resume {
     margin: 20px auto 0;
 }
-
 
 .contact-info{
     color:rgb(255, 255, 255);
@@ -766,12 +757,10 @@ p{
             font-size:1.8rem;
             width:90%;
         }
-
     }
 
 
 /* Tablet Styles */
-
 
 /* Portrait */
 @media only screen
@@ -888,8 +877,6 @@ p{
     #return-home-btn {
         font-size:3rem;
     }
-
-
 }
 
 /* Tablet Landscape */
