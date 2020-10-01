@@ -591,10 +591,12 @@ p{
 
 #thanks-head{
     font-size:4rem;
+    width: 100%;
 }
 
 #thanks-subhead {
     font-size: 3rem;
+    width: 100%;
 }
 
 #thanks-icon {
@@ -604,6 +606,7 @@ p{
 #go-back-link {
     width:100%;
 }
+
 #return-home-btn {
     background-color:rgba(231, 76, 60);
     color:white;
@@ -713,6 +716,11 @@ p{
 
     .skill-item-logo {
         width:42%;
+    }
+
+    #go-back-link {
+        margin-top: 20px;
+        width:60%;
     }
 }
 
@@ -855,9 +863,36 @@ p{
         font-size: 2.4rem;
     }
  
+
+    /* Thanks Page */
+
+
+    #thanks-head{
+        font-size:6rem;
+        width: 100%;
+    }
+    
+    #thanks-subhead {
+        font-size: 4.8rem;
+        width: 100%;
+    }
+    
+    #thanks-icon {
+        font-size:10rem;
+    }
+
+    #go-back-link {
+        width:60%;
+    }
+
+    #return-home-btn {
+        font-size:3rem;
+    }
+
+
 }
 
-/* Tabler Landscape */
+/* Tablet Landscape */
 
 @media only screen
     and (min-width: 1024px)
@@ -981,6 +1016,27 @@ p{
         #copyright{
             font-size: 2rem;
         }
+
+        /* Thanks Page */
+
+        #go-back-link {
+            width:50%;
+        }
+
+        #thanks-head{
+            font-size:6rem;
+            width: 100%;
+        }
+        
+        #thanks-subhead {
+            font-size: 4.8rem;
+            width: 100%;
+        }
+
+        #return-home-btn {
+            font-size:3rem;
+        }
+        
     }
 
 /* LARGE TABLETS (IPAD - PRO) PORTRAT */
@@ -1037,6 +1093,26 @@ p{
 
         #contact-container {
             width:50%;
+        }
+
+        /* Thanks Page */
+
+        #thanks-head{
+            font-size:7rem;
+            width: 100%;
+        }
+        
+        #thanks-subhead {
+            font-size: 6rem;
+            width: 100%;
+        }
+        
+        #thanks-icon {
+            font-size:20rem;
+        }
+
+        #return-home-btn {
+            font-size:3rem;
         }
     }
 
