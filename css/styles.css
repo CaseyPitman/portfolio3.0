@@ -44,11 +44,12 @@ p{
 .section{
     background-color: lightblue;
     border-top: 1px solid rgb(44, 44, 44);
-
+    padding: 50px 0;
 }
 
 .section-container {
     background-color:tomato;
+    margin: 0px auto;
     width:90%;
 }
 
@@ -172,10 +173,21 @@ p{
 /* ABOUT */
 
 
-
-
 #about-icon{
     transform:rotate(90deg);
+}
+
+#about-content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row-reverse wrap;
+    margin: 20px auto;
+}
+
+#portrait-container {
+    margin: auto;
+    width:100%;
 }
 
 #casey-portrait{
@@ -183,9 +195,14 @@ p{
     border-radius: 50%;
     display: block;
     height:auto;
-
+    margin: 0 auto 20px;
     max-width:200px;
     padding:0; 
+
+}
+
+#about-text{
+    width:100%
 }
 
 /* SKILLS */
@@ -238,9 +255,7 @@ p{
 
 /* projects */
 #projects{
-    height:auto;
-    margin: auto;
-    scroll-margin-top: 90px ;
+
 
 }
 
@@ -268,7 +283,6 @@ p{
 .work-sample-card{
     background: rgba(236, 240, 241, 0.5);
     border:1px solid rgba(44,44,44);
-    margin-top: 40px;
     height:auto;
     width:100%;
 }
