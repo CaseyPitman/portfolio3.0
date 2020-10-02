@@ -68,7 +68,6 @@ p{
 
 .red-icon {
     color:rgba(231, 76, 60);
-    font-size:5rem;
 }
 
 .red-text {
@@ -181,7 +180,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row-reverse wrap;
+    flex-flow: row wrap;
     margin: 20px auto;
 }
 
@@ -202,6 +201,7 @@ p{
 }
 
 #about-text{
+    
     width:100%
 }
 
@@ -600,6 +600,9 @@ p{
         line-height:1.25;
     }
 
+    .section-container{
+        background-color: lightgoldenrodyellow;
+    }
 
 
 
@@ -638,6 +641,9 @@ p{
             line-height:1.25;
         }
 
+        .section-container {
+            background-color: tan;
+        }
 
 
         .contact-info {
@@ -678,6 +684,9 @@ p{
         line-height:1.25;
     }
 
+    .section-container {
+        background-color: lightpink;
+    }
 
     /* ABOUT */
 
@@ -755,6 +764,9 @@ p{
             line-height:1.25;
         }
 
+        .section-container {
+            background-color: plum;
+        }
 
     
 
@@ -763,8 +775,6 @@ p{
             /* margin:0 auto 0 50px ; */
             max-width:300px;
         }
-
-
 
 
 
@@ -827,6 +837,10 @@ p{
         #jumbo-head-3,
         #cursor3 {
             font-size: 5rem;
+        }
+
+        .section-container {
+            background-color: lightgray;
         }
 
 
@@ -900,6 +914,9 @@ p{
             font-size: 5rem;
         }
       
+        .section-container {
+            background-color: salmon;
+        }
 
      
         #casey-portrait {
@@ -933,6 +950,10 @@ p{
     }
 
 
+
+    .section-container {
+        background-color: palegreen;
+    }
 /* 
  
     #casey-portrait {
