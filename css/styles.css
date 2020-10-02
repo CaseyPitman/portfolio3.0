@@ -168,7 +168,8 @@ p{
     border-bottom: 1px solid rgba(44, 44, 44);
     height:auto;
     margin: 50px auto;
-    scroll-margin-top: 90px 
+    scroll-margin-top: 90px ;
+    width: 100%;
 }
 
 
@@ -203,6 +204,7 @@ p{
     height:auto;
     margin: 50px auto 0;
     scroll-margin-top: 90px ;
+    width: 100%;
 }
 
 #skills-container {
@@ -270,6 +272,7 @@ p{
     height:auto;
     margin: auto;
     scroll-margin-top: 90px ;
+    width: 100%;
 }
 
 #projects-container {
@@ -1209,6 +1212,7 @@ p{
         background-repeat:no-repeat;
     }
 
+
     #about-content-container {
         flex-flow: row-reverse;
         margin: 100px auto 200px;
@@ -1234,6 +1238,7 @@ p{
     #projects-container,
     #skills-container{
         width:66%;
+        max-width: 1200px;
     }
 
     .work-sample-card-text {
