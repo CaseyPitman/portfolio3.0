@@ -41,6 +41,17 @@ p{
     line-height: 1.5
 }
 
+.section{
+    background-color: lightblue;
+    border-top: 1px solid rgb(44, 44, 44);
+
+}
+
+.section-container {
+    background-color:tomato;
+    width:90%;
+}
+
 .section-head {
     font-size:5.5rem;
     font-weight: 300;
@@ -69,10 +80,7 @@ p{
 
 
 #main-content-container {
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    flex-flow: column nowrap;
+
 }
 
 /* HOME */
@@ -117,7 +125,6 @@ p{
     overflow: hidden;
     min-height:100vh;
     margin:0px;
-    border-bottom:1px solid rgba(44,44,44);
 }
 
 
@@ -164,19 +171,8 @@ p{
 
 /* ABOUT */
 
-#about-me {
-    border-bottom: 1px solid rgba(44, 44, 44);
-   
-}
 
 
-#about-container {
-
-}
-
-#about-content-container {
-
-}
 
 #about-icon{
     transform:rotate(90deg);
@@ -197,9 +193,7 @@ p{
  
 }
 
-#skills-container {
 
-}
 
 #skills-icon{
     color:rgba(231, 76, 60);
@@ -244,17 +238,12 @@ p{
 
 /* projects */
 #projects{
-    border-bottom: 1px solid rgba(44, 44, 44);
     height:auto;
     margin: auto;
     scroll-margin-top: 90px ;
 
 }
 
-#projects-container {
-    margin: auto;
-
-}
 
 #projects-icon{
     transform:rotate(270deg);
