@@ -166,23 +166,16 @@ p{
 
 #about-me {
     border-bottom: 1px solid rgba(44, 44, 44);
-    height:auto;
-    margin: 50px auto;
-    scroll-margin-top: 90px ;
-    width: 100%;
+   
 }
 
 
 #about-container {
-    margin: 50px auto;
-    width:90%;
+
 }
 
 #about-content-container {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-flow: row wrap;
+
 }
 
 #about-icon{
@@ -194,22 +187,18 @@ p{
     border-radius: 50%;
     display: block;
     height:auto;
-    margin:50px auto;
+
     max-width:200px;
     padding:0; 
 }
 
 /* SKILLS */
 #my-skills {
-    height:auto;
-    margin: 50px auto 0;
-    scroll-margin-top: 90px ;
-    width: 100%;
+ 
 }
 
 #skills-container {
-    margin: 50px auto;
-    width:90%;
+
 }
 
 #skills-icon{
@@ -217,32 +206,20 @@ p{
     transform:rotate(180deg);
 }
 
-.skill-group-head{
-    font-weight:100;
-}
-
 
 #skills-intro-text{
-    margin: 50px auto 25px;
+
 }
 
 #skills{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-flow: row wrap;
+
 }
 
 .skill-item{
     height: 100%;
-    min-height: 130px;
-    width: 26%;
-    position: relative;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+
+
 }
 
 .skill-item-logo {
@@ -254,12 +231,11 @@ p{
 
 
 .skill-item-text {
-    position: absolute;
-    bottom:0;
+
 
     color:rgba(44, 44, 44); 
     font-weight: bold;
-    margin:0;
+
     width:100%;
     text-align: center;
 
@@ -272,12 +248,12 @@ p{
     height:auto;
     margin: auto;
     scroll-margin-top: 90px ;
-    width: 100%;
+
 }
 
 #projects-container {
     margin: auto;
-    width:90%;
+
 }
 
 #projects-icon{
@@ -285,17 +261,14 @@ p{
 }
 
 #samples{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    flex-flow: row wrap;
+
     margin: 50px auto 0;
     width:100%;
 }
 
 .work-sample-section-head{
     border-bottom: 1px solid rgba(231, 76, 60);
-    margin: 0 auto 20px;
+
     font-size:3rem;
     font-weight:300;
     color:rgba(231, 76, 60);
@@ -319,12 +292,8 @@ p{
 }
 
 .work-sample-card-content {
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    flex-flow:row wrap;
-    margin: 25px auto;
-    width: 90%;
+
+
 }
 
 .work-sample-card-title {
@@ -353,21 +322,6 @@ p{
     width:1em;
 }
 
-.work-sample-card-text {
-    font-size:1.6rem;
-    height:110px;
-    line-height: 1.5;
-    margin: 10px 0 20px;
-    width:100%;
-}
-
-.work-sample-links{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-flow: row nowrap;
-    width: 100%;
-}
 
 .link-button {
     border: 1px solid rgba(231, 76, 60);
@@ -392,11 +346,6 @@ p{
     text-decoration: none;
 }
 
-#more-projects-link{
-    font-size: 2.4rem;
-    margin: 20px auto 20px;
-    width:100%; 
-}
 
 /* Contact */
 #contact {
@@ -488,9 +437,6 @@ p{
     background-color:rgba(231, 76, 60);
 }
 
-#resume {
-    margin: 20px auto 0;
-}
 
 .contact-info{
     color:rgb(255, 255, 255);
@@ -651,66 +597,8 @@ p{
         line-height:1.25;
     }
 
-    #about-me, 
-    #my-skills, 
-    #projects {
-        height:auto;
-        margin: auto;
-        scroll-margin-top: 30px 
-    }
 
-    #projects-container {
-        margin-top: 40px; 
-    }
 
-    #about-content-container {
-        margin: 70px 0;
-        flex-flow: row-reverse
-    }
-
-    #about-text {
-        width:60%;
-    }
-    
-    #skills-intro-text {
-        margin: 70px auto 25px;
-    }
-    
-    .work-sample-card {
-        height:445px;
-        margin: 30px auto;
-        width:40%;
-    }
-
-    .sample-tools {
-        font-size:1.6rem;
-    }
-
-    .work-sample-card-title {
-        font-size:2.4rem;
-    }
-    
-    .work-sample-card-text {
-        height: 96px;
-        font-size: 1.6rem;
-    }
-    
-    .link-button {
-        font-size: 1.6rem;
-    }
-
-    #more-projects-link {
-        margin:0 auto 50px;
-        width: 90%;
-    }
-
-    .skill-item {
-        height: 200px;
-    }
-
-    .skill-item-logo {
-        width:42%;
-    }
 
     #go-back-link {
         margin-top: 20px;
@@ -747,14 +635,7 @@ p{
             line-height:1.25;
         }
 
-        .skills-text {
-            font-size:1.8rem;
-        }
-        .link-button {
-            font-size:1.6rem;
-            margin:35px 0;
-            width:45%;
-        }
+
 
         .contact-info {
             font-size:1.8rem;
@@ -797,49 +678,9 @@ p{
 
     /* ABOUT */
 
-    #about-me, 
-    #my-skills, 
-    #projects {
-        height:auto;
-        min-height:98vh;
-        margin: auto;
-        scroll-margin-top: 30px 
-    }
-
-    #about-container,
-    #skills-container {
-        position: relative;
-        top: 150px;
-        margin: 0 auto;
-        width:66%;
-    }
     
     /* PROJECTS */
 
-    #projects-container {
-        margin: 150px auto 50px;
-    }
-
-    .work-sample-section-head{
-        font-size: 4.2rem;
-    }
-
-    .work-sample-card {
-        width:47%;
-    }
-
-    .link-button{
-       width:45%;
-    }
-
-    .sample-tools {
-        font-size: 1.8rem;
-    }
-
-    #more-projects-link{
-         font-size: 3rem;
-         margin: 50px auto 0; 
-    }
 
     /* FOOTER */
 
@@ -912,88 +753,17 @@ p{
         }
 
 
-        /* About */
-
-        #about-me, 
-        #my-skills, 
-        #projects {
-            height:auto;
-            min-height:98vh;
-            margin:0 auto;
-            padding-bottom: 50px;
-            scroll-margin-top: 30px 
-        }
     
-        #about-container,
-        #skills-container,
-        #projects-container {
 
-            position: relative;
-            top: 50px;
-            margin: 0 auto;
-            width:90%;
-        }
-
-        #about-content-container {
-            margin: 100px auto;
-            flex-flow: row-reverse;
-        }
-    
-        #about-text{
-            width:50%;
-        }
      
         #casey-portrait {
-            margin:0 auto 0 50px ;
+            /* margin:0 auto 0 50px ; */
             max-width:300px;
         }
 
-        .skills-head {
-            font-size: 4rem;
-        }
 
-        #my-skills{
-            padding:0 0 100px;
-        }
 
-        .link-button {
-            font-size:1.8rem;
-        }
 
-        #samples {
-            margin: 0px auto;
-        }
-
-        .work-sample-section-head {
-            margin: 20px 0 -50px 0;
-            font-size:4rem;
-        }
-
-        .work-sample-card {
-            margin-top:100px; 
-            height:auto;
-            width:45%;
-        }
-
-        .sample-tools {
-            margin: 10px 15px 0 0 ;
-        }
-
-        .work-sample-links {
-            margin: 10px auto 0;
-        }
-
-        .skill-item {
-            min-height: 170px;
-        }
-
-        .skill-item-logo {
-            width:33%;
-        }
-
-        #more-projects-link {
-            margin:50px auto ;
-        }
 
         #contact-container {
             width:66%;
@@ -1056,25 +826,7 @@ p{
             font-size: 5rem;
         }
 
-      
-        #about-me, 
-        #my-skills, 
-        #projects {
-            min-height:75vh;
-            height: auto;
-        }
 
-        #my-skills {
-            padding-bottom: 100px;
-        }
-        
-        #skills-container {
-            padding-bottom: 50px;
-        }
-
-        .skill-item {
-            height:200px;
-        }
 
         #contact {
             margin: 50px auto 0;
@@ -1145,26 +897,7 @@ p{
             font-size: 5rem;
         }
       
-        #about-me {
-            min-height:80vh;
-            height:auto;
-        }
 
-
-        #my-skills{
-            min-height:90vh;
-            height:auto;
-        }
-
-      
-        #about-content-container {
-            margin: 100px auto;
-            flex-flow: row-reverse;
-        }
-    
-        #about-text{
-            width:60%;
-        }
      
         #casey-portrait {
             margin:0 auto;
@@ -1172,26 +905,10 @@ p{
         }
         
 
-        #projects-container {
-            margin:100px auto 100px;
-            width: 66%;
-
-        }
-
-        #about-container, 
-        #skills-container,
-        #projects-container {
-            top: 100px;
-        }
-
         #contact-container {
             width:50%;
         }
 
-        #more-projects-link{
-            font-size: 3rem;
-            margin: 50px auto 0; 
-       }
 
 }
 
@@ -1213,46 +930,14 @@ p{
     }
 
 
-    #about-content-container {
-        flex-flow: row-reverse;
-        margin: 100px auto 200px;
-    }
-
-    #about-text{
-        width:60%;
-    }
+/* 
  
     #casey-portrait {
         margin:0 auto;
     }
+ */
 
-    #skills-container {
-        margin-bottom:150px;
-    }
 
-    #projects-container {
-        margin-top: 0px;
-    }
-
-    #about-container, 
-    #projects-container,
-    #skills-container{
-        width:66%;
-        max-width: 1200px;
-    }
-
-    .work-sample-card-text {
-        height: 75px;
-    }
-
-    #more-projects-main {
-        padding-bottom: 50px;
-        width: 66%;
-    }
-
-    #more-projects-link{
-        margin: 70px auto 0; 
-   }
 
     #contact-container {
         max-width:600px;
