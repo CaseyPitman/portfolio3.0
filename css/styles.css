@@ -45,16 +45,18 @@ p{
     background-color: lightblue;
     border-top: 1px solid rgb(44, 44, 44);
     padding: 50px 0;
+
 }
 
 .section-container {
     background-color:tomato;
     margin: 0px auto;
     width:90%;
+
 }
 
 .section-head {
-    font-size:5.5rem;
+    font-size:5rem;
     font-weight: 300;
 }
 
@@ -181,7 +183,7 @@ p{
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    margin: 20px auto;
+    margin: 40px auto;
 }
 
 #portrait-container {
@@ -264,7 +266,7 @@ p{
     transform:rotate(270deg);
 }
 
-#samples{
+#projects-content-container{
 
     margin: 50px auto 0;
     width:100%;
@@ -484,21 +486,14 @@ p{
 /* OTHER PROJECTS PAGE */
 
 #more-projects-main {
-    margin:46.25px auto;
-    min-height:100vh;
-    width: 90%;
+
 }
 
 #more-projects-section-head {
-    margin-top:100px;
+  
 }
 
-#more-projects-flex-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-flow: row wrap;
-}
+
 
 
 /*THANK YOU PAGE*/
@@ -690,6 +685,23 @@ p{
 
     /* ABOUT */
 
+
+    #about-content-container {
+
+        justify-content: space-between;
+     
+    }
+
+
+    #portrait-container {
+        order: 2;
+        width: 40%;
+    }
+
+
+    #about-text {
+        width: 60%
+    }
     
     /* PROJECTS */
 
@@ -768,14 +780,27 @@ p{
             background-color: plum;
         }
 
-    
+        #about-content-container {
 
-     
+            justify-content: space-between;
+         
+        }
+    
+    
+        #portrait-container {
+            order: 2;
+            width: 40%;
+        }
+    
+        
         #casey-portrait {
             /* margin:0 auto 0 50px ; */
-            max-width:300px;
+           max-width:300px;
+       }
+    
+        #about-text {
+            width: 60%
         }
-
 
 
         #contact-container {
