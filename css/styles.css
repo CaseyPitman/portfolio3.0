@@ -334,14 +334,6 @@ p{
 }
 
 
-#skills-intro-text{
-
-}
-
-#skills{
-
-}
-
 .skill-item{
     height: 100%;
 }
@@ -351,6 +343,10 @@ p{
     height:auto;
     margin: auto;
     width: 50%;
+}
+
+.skill-icon {
+    padding-top: 20px;
 }
 
 
