@@ -315,7 +315,8 @@ p{
     text-decoration: none;
 }
 
-#more-projects-link {
+#more-projects-link,
+#back-to-projects-link {
     margin: 30px auto 0;
     font-size:2rem;
     width:100%;
@@ -499,12 +500,14 @@ p{
 
 /* OTHER PROJECTS PAGE */
 
-#more-projects-main {
+#more-projects-content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 0px auto 0;
+    width:100%;
 
-}
-
-#more-projects-section-head {
-  
 }
 
 
@@ -732,6 +735,14 @@ p{
         width: 44%;
     }
 
+    .work-sample-card-content {
+        padding:15px;
+    }
+
+    .sample-tools {
+        margin: 0 15px 0 0;
+    }
+
    
 
     /* FOOTER */
@@ -830,6 +841,17 @@ p{
             width: 60%
         }
 
+        #projects-content-container {
+            justify-content: space-between;
+        }
+    
+        .work-sample-card {
+            width: 40%;
+        }
+
+        .work-sample-card-content {
+            padding:15px;
+        }
 
         #contact-container {
             width:66%;
@@ -894,6 +916,10 @@ p{
 
         .section-container {
             background-color: lightgray;
+        }
+
+        .work-sample-card-text {
+            height: 90px;
         }
 
 
