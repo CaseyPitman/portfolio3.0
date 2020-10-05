@@ -52,7 +52,6 @@ p{
     background-color:tomato;
     margin: 0px auto;
     width:90%;
-
 }
 
 .section-head {
@@ -207,12 +206,126 @@ p{
     width:100%
 }
 
+
+/* PROJECTS*/
+#projects{
+
+}
+
+
+#projects-icon{
+    transform:rotate(270deg);
+}
+
+#projects-content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 0px auto 0;
+    width:100%;
+}
+
+
+
+/* work sample cards */
+.work-sample-card{
+    background: rgba(236, 240, 241, 0.5);
+    border:1px solid rgba(44,44,44);
+    height:auto;
+    margin: 50px 0 0;
+    width:100%;
+}
+
+.work-sample-img {
+    border-bottom:1px solid rgba(44,44,44);
+    display:block;
+    margin:auto;
+    width:100%;
+}
+
+.work-sample-card-content {
+    padding: 10px;
+
+}
+
+.work-sample-card-text {
+    font-size: 1.6rem;
+    height: 100px;
+    margin: 10px auto;
+}
+
+.work-sample-card-title {
+    color:rgba(231, 76, 60);
+    font-size: 2.6rem;
+    font-weight:300;
+    margin: 0px auto;
+    width:100%;
+}
+
+.sample-tool-list {
+    margin: 5px auto;
+    width:100%;
+}
+
+.sample-tools {
+    display: inline-block;
+    margin: 0px 20px 0 0;
+    font-size:1.8rem;
+    font-weight:700;
+}
+
+.sample-tools::before{
+    color: rgba(231, 76, 60);
+    content: "\2022";
+    display: inline-block;
+    font-weight: bold;
+    width:1em;
+}
+
+.work-sample-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+
+.link-button {
+    border: 1px solid rgba(231, 76, 60);
+    background:transparent;
+    color: rgba(231, 76, 60);
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 40%;
+}
+
+.link-button:hover {
+    background: rgba(231, 76, 60);
+    color: white;
+    text-decoration: none;
+}
+
+.link-button:focus {
+    background: rgba(231, 76, 60);
+    color: white;
+    text-decoration: none;
+}
+
+#more-projects-link {
+    margin: 30px auto 0;
+    font-size:2rem;
+    width:100%;
+}
+
+
 /* SKILLS */
 #my-skills {
  
 }
-
-
 
 #skills-icon{
     color:rgba(231, 76, 60);
@@ -230,9 +343,6 @@ p{
 
 .skill-item{
     height: 100%;
-
-
-
 }
 
 .skill-item-logo {
@@ -254,102 +364,6 @@ p{
 
 }
 
-
-/* projects */
-#projects{
-
-
-}
-
-
-#projects-icon{
-    transform:rotate(270deg);
-}
-
-#projects-content-container{
-
-    margin: 50px auto 0;
-    width:100%;
-}
-
-.work-sample-section-head{
-    border-bottom: 1px solid rgba(231, 76, 60);
-
-    font-size:3rem;
-    font-weight:300;
-    color:rgba(231, 76, 60);
-    width: 100%;
-}
-
-/* work sample cards */
-.work-sample-card{
-    background: rgba(236, 240, 241, 0.5);
-    border:1px solid rgba(44,44,44);
-    height:auto;
-    width:100%;
-}
-
-.work-sample-img {
-    border-bottom:1px solid rgba(44,44,44);
-    display:block;
-    margin:auto;
-    width:100%;
-}
-
-.work-sample-card-content {
-
-
-}
-
-.work-sample-card-title {
-    color:rgba(231, 76, 60);
-    font-size: 2.6rem;
-    font-weight:300;
-    width:100%;
-}
-
-.sample-tool-list {
-    width:100%;
-}
-
-.sample-tools {
-    display: inline-block;
-    margin: 10px 20px 0 0;
-    font-size:2rem;
-    font-weight:700;
-}
-
-.sample-tools::before{
-    color: rgba(231, 76, 60);
-    content: "\2022";
-    display: inline-block;
-    font-weight: bold;
-    width:1em;
-}
-
-
-.link-button {
-    border: 1px solid rgba(231, 76, 60);
-    background:transparent;
-    color: rgba(231, 76, 60);
-    font-size: 1.4rem;
-    font-weight: 300;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    width: 40%;
-}
-
-.link-button:hover {
-    background: rgba(231, 76, 60);
-    color: white;
-    text-decoration: none;
-}
-.link-button:focus {
-    background: rgba(231, 76, 60);
-    color: white;
-    text-decoration: none;
-}
 
 
 /* Contact */
@@ -640,6 +654,10 @@ p{
             background-color: tan;
         }
 
+        .section-head {
+            font-size: 4.8rem;
+        }
+
 
         .contact-info {
             font-size:1.8rem;
@@ -705,6 +723,16 @@ p{
     
     /* PROJECTS */
 
+    #projects-content-container {
+        justify-content: space-between;
+        
+    }
+
+    .work-sample-card {
+        width: 44%;
+    }
+
+   
 
     /* FOOTER */
 
