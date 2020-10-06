@@ -51,6 +51,7 @@ p{
 .section-container {
     background-color:tomato;
     margin: 0px auto;
+    max-width:1200px;
     width:90%;
 }
 
@@ -182,7 +183,7 @@ p{
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    margin: 40px auto;
+    margin: 40px auto 0;
 }
 
 #portrait-container {
@@ -324,8 +325,8 @@ p{
 
 
 /* SKILLS */
-#my-skills {
- 
+#skills-intro-text {
+    margin: 50px auto 20px;
 }
 
 #skills-icon{
@@ -346,7 +347,7 @@ p{
 }
 
 .skill-icon {
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 
@@ -612,7 +613,34 @@ p{
         background-color: lightgoldenrodyellow;
     }
 
+    #about-content-container {
+        justify-content: space-between;
+    }
 
+
+    #portrait-container {
+        order: 2;
+        width: 33%;
+    }
+
+
+    #about-text {
+        width: 60%
+    }
+
+    #projects-content-container {
+        justify-content: space-between;
+        
+    }
+
+    .work-sample-card {
+        width: 44%;
+    }
+
+    #skills-table {
+        margin: auto;
+        width: 70%;
+    }
 
     #go-back-link {
         margin-top: 20px;
@@ -672,6 +700,10 @@ p{
     and (min-width: 768px)
     and (orientation: portrait)
     {
+
+    .section {
+        padding: 100px 0;
+    }
         
     #headline-container {
         left: 33px;
@@ -704,9 +736,7 @@ p{
 
 
     #about-content-container {
-
         justify-content: space-between;
-     
     }
 
 
@@ -739,7 +769,25 @@ p{
         margin: 0 15px 0 0;
     }
 
+    #more-projects-link,
+    #back-to-projects-link  {
+        font-size: 3rem;
+        margin: 50px auto 0;
+        width:50%;
+    }
    
+
+    /* SKILLS */
+
+
+    .skill-item-logo {
+        width: 25%;
+    }
+
+    .skill-item-text {
+        font-size: 2.4rem;
+        margin: 10px auto;
+    }
 
     /* FOOTER */
 
@@ -788,6 +836,11 @@ p{
     and (min-width: 1024px)
     and (orientation: landscape)
     {
+
+        .section {
+            padding: 100px 0;
+        }
+
         #headline-container {
             left: 44px;
             top: 66px;
@@ -849,6 +902,25 @@ p{
             padding:15px;
         }
 
+        #more-projects-link,
+        #back-to-projects-link  {
+            font-size: 3rem;
+            margin: 50px auto 0;
+            width:50%;
+        }
+
+           /* SKILLS */
+
+
+        .skill-item-logo {
+            width: 25%;
+        }  
+
+        .skill-item-text {
+            font-size: 2.4rem;
+            margin: 10px auto;
+        }
+
         #contact-container {
             width:66%;
         }
@@ -860,6 +932,7 @@ p{
         #copyright{
             font-size: 2rem;
         }
+
 
         /* Thanks Page */
 
@@ -910,6 +983,10 @@ p{
             font-size: 5rem;
         }
 
+        .section {
+            padding: 150px 0;
+        }
+
         .section-container {
             background-color: lightgray;
         }
@@ -918,12 +995,19 @@ p{
             height: 90px;
         }
 
-
-
-        #contact {
+        #more-projects-link,
+        #back-to-projects-link  {
+            font-size: 3rem;
             margin: 50px auto 0;
+            width:50%;
         }
-    
+
+
+        .skill-item-text {
+            
+            margin: 10px auto;
+        }
+
 
         #contact-container {
             width:50%;
@@ -956,6 +1040,11 @@ p{
         and (min-device-width: 1366px)
         and (orientation: landscape)
         and (-webkit-min-device-pixel-ratio: 2){
+
+
+        .section {
+            padding: 150px 0;
+        }
 
         #jumbo-home{
             background: linear-gradient(
@@ -1012,6 +1101,10 @@ p{
 /* ----------- Retina Screens ----------- */
 @media screen 
   and (min-width: 1400px) { 
+
+    .section {
+        padding: 150px 0;
+    }
  
     #jumbo-home{
         background: linear-gradient(
@@ -1024,18 +1117,18 @@ p{
         background-repeat:no-repeat;
     }
 
-
-
     .section-container {
         background-color: palegreen;
+        width: 75%;
     }
-/* 
- 
-    #casey-portrait {
-        margin:0 auto;
-    }
- */
 
+
+    #more-projects-link,
+    #back-to-projects-link  {
+        font-size: 3rem;
+        margin: 50px auto 0;
+        width:50%;
+    }
 
 
     #contact-container {
