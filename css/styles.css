@@ -50,7 +50,7 @@ p{
 .section-container {
     margin: 0px auto;
     max-width:1200px;
-    width:90%;
+    width:88%;
 }
 
 .section-head {
@@ -79,11 +79,7 @@ p{
 }
 
 
-#main-content-container {
-
-}
-
-/* HOME */
+/* HOME PAGE*/
 
 /* navbar */        
 #navigation{
@@ -112,7 +108,8 @@ p{
     font-weight:300;   
 }
 
-/* jumbo */
+/* HEADER */
+
 #jumbo-home{
     background: linear-gradient(
         rgba(52, 152, 219, 0.7), 
@@ -122,20 +119,19 @@ p{
     background-position:bottom right;
     background-size:cover;
     background-repeat:no-repeat;
-    overflow: hidden;
     min-height:100vh;
     margin:0px;
+    overflow: hidden;
 }
-
 
 #headline-container {
     color:white;
+    width:90%;
+
     position:relative;
     left: 20px;
     top: 66px;
-    width:90%;
 }
-
 
 #jumbo-head-1,
 #cursor1 {
@@ -171,7 +167,6 @@ p{
 
 /* ABOUT */
 
-
 #about-icon{
     transform:rotate(90deg);
 }
@@ -197,20 +192,14 @@ p{
     margin: 0 auto 20px;
     max-width:200px;
     padding:0; 
-
 }
 
 #about-text{
-    
     width:100%
 }
 
 
 /* PROJECTS*/
-#projects{
-
-}
-
 
 #projects-icon{
     transform:rotate(270deg);
@@ -224,7 +213,6 @@ p{
     margin: 0px auto 0;
     width:100%;
 }
-
 
 
 /* work sample cards */
@@ -245,7 +233,6 @@ p{
 
 .work-sample-card-content {
     padding: 10px;
-
 }
 
 .work-sample-card-text {
@@ -321,7 +308,6 @@ p{
     width:100%;
 }
 
-
 /* SKILLS */
 #skills-intro-text {
     margin: 50px auto 20px;
@@ -331,7 +317,6 @@ p{
     color:rgba(231, 76, 60);
     transform:rotate(180deg);
 }
-
 
 .skill-item{
     height: 100%;
@@ -348,16 +333,11 @@ p{
     padding-top: 30px;
 }
 
-
 .skill-item-text {
-
-
     color:rgba(44, 44, 44); 
     font-weight: bold;
-
-    width:100%;
     text-align: center;
-
+    width:100%;
 }
 
 /* Contact */
@@ -370,9 +350,9 @@ p{
     background-size:cover;
     background-repeat:no-repeat;
     border-top: 1px solid rgb(44, 44, 44);
-    min-height:100vh;
-    margin:auto;
     color:white;
+    margin:auto;
+    min-height:100vh;
 }
 
 #contact-container {
@@ -380,6 +360,7 @@ p{
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+
     height:auto;
     margin:0 auto;
     padding: 30px 0;
@@ -450,7 +431,6 @@ p{
     background-color:rgba(231, 76, 60);
 }
 
-
 .contact-info{
     color:rgb(255, 255, 255);
     font-size: 2rem;
@@ -500,10 +480,7 @@ p{
     flex-flow: row wrap;
     margin: 0px auto 0;
     width:100%;
-
 }
-
-
 
 
 /*THANK YOU PAGE*/
@@ -569,6 +546,13 @@ p{
   and (min-device-width: 320px) 
   and (max-device-height: 599px)  
   and (orientation: landscape) { 
+
+    /* Global */
+    p {
+        font-size: 1.6rem;
+    }
+
+    /* Header */
     #jumbo-home{
         background: linear-gradient(
         rgba(52, 152, 219, 0.7), 
@@ -578,10 +562,6 @@ p{
         background-position:bottom right;
         background-size:cover;
         background-repeat:no-repeat;
-    }
-
-    p {
-        font-size: 1.6rem;
     }
 
     #headline-container {
@@ -605,31 +585,32 @@ p{
         line-height:1.25;
     }
 
+    /* ABOUT */
 
     #about-content-container {
         justify-content: space-between;
     }
-
 
     #portrait-container {
         order: 2;
         width: 33%;
     }
 
-
     #about-text {
         width: 60%
     }
 
+    /* PROJECTS */
+
     #projects-content-container {
         justify-content: space-between;
-        
     }
 
     .work-sample-card {
         width: 44%;
     }
 
+    /* SKILLS */
     #skills-table {
         margin: auto;
         width: 70%;
@@ -641,45 +622,49 @@ p{
     }
 }
 
-  /* Pre-Iphone 6 / Gal S5 / Other very narrow phones  */
-  @media only screen 
-    and (max-device-width: 360px){
-
-        #headline-container {
-            top: 50px;
-            width:90%;
-        }
-        
-        #jumbo-head-1,
-        #cursor1 {
-            font-size: 8rem;
-        }
-        
-        #head-2 {
-            margin-bottom:5px;
-        }
-        
-        #jumbo-head-2, 
-        #cursor2 {
-            font-size:3.2rem;
-        }
-        
-        #jumbo-head-3,
-        #cursor3 {
-            font-size: 2rem;
-            line-height:1.25;
-        }
-
-        .section-head {
-            font-size: 4.8rem;
-        }
-
-
-        .contact-info {
-            font-size:1.8rem;
-            width:90%;
-        }
+/* Pre-Iphone 6 / Gal S5 / Other very narrow phones  */
+@media only screen 
+and (max-device-width: 360px){
+    
+    /* Global */
+    .section-head {
+        font-size: 4.8rem;
     }
+
+    /* HEADER */
+    #headline-container {
+        top: 50px;
+        width:90%;
+    }
+    
+    #jumbo-head-1,
+    #cursor1 {
+        font-size: 8rem;
+    }
+    
+    #head-2 {
+        margin-bottom:5px;
+    }
+    
+    #jumbo-head-2, 
+    #cursor2 {
+        font-size:3.2rem;
+    }
+    
+    #jumbo-head-3,
+    #cursor3 {
+        font-size: 2rem;
+        line-height:1.25;
+    }
+
+    /* Contact */
+
+    .contact-info {
+        font-size:1.8rem;
+        width:90%;
+
+    }
+}
 
 
 /* Tablet Styles */
@@ -690,10 +675,12 @@ p{
     and (orientation: portrait)
     {
 
+     /* Global */
     .section {
         padding: 100px 0;
     }
         
+    /* Header */
     #headline-container {
         left: 33px;
         top: 44px;
@@ -719,17 +706,14 @@ p{
 
     /* ABOUT */
 
-
     #about-content-container {
         justify-content: space-between;
     }
-
 
     #portrait-container {
         order: 2;
         width: 40%;
     }
-
 
     #about-text {
         width: 60%
@@ -739,7 +723,6 @@ p{
 
     #projects-content-container {
         justify-content: space-between;
-        
     }
 
     .work-sample-card {
@@ -761,9 +744,7 @@ p{
         width:50%;
     }
    
-
     /* SKILLS */
-
 
     .skill-item-logo {
         width: 25%;
@@ -774,7 +755,7 @@ p{
         margin: 10px auto;
     }
 
-    /* FOOTER */
+    /* CONTACT */
 
     #contact-container {
         width:66%;
@@ -788,8 +769,7 @@ p{
         font-size: 2.4rem;
     }
  
-
-    /* Thanks Page */
+    /* THANKS PAGE*/
 
 
     #thanks-head{
@@ -819,13 +799,18 @@ p{
 
 @media only screen
     and (min-width: 1024px)
-    and (orientation: landscape)
-    {
+    and (orientation: landscape){
 
+        /* GLOBAL */
         .section {
             padding: 100px 0;
         }
+        
+        .section-container {
+            width:75%;
+        }
 
+        /* HEADER */
         #headline-container {
             left: 44px;
             top: 66px;
@@ -835,7 +820,6 @@ p{
         #jumbo-head-1,
         #cursor1 {
             font-size: 15rem;
-            
         }
     
         #jumbo-head-2, 
@@ -849,30 +833,27 @@ p{
             line-height:1.25;
         }
 
-        .section-container {
-            width:75%;
-        }
+        /* ABOUT */
 
         #about-content-container {
             justify-content: space-between;
          
         }
     
-    
         #portrait-container {
             order: 2;
             width: 40%;
         }
-    
         
         #casey-portrait {
-            /* margin:0 auto 0 50px ; */
            max-width:300px;
        }
     
         #about-text {
             width: 60%
         }
+
+        /* PROJECTS */
 
         #projects-content-container {
             justify-content: space-between;
@@ -893,8 +874,7 @@ p{
             width:50%;
         }
 
-           /* SKILLS */
-
+        /* SKILLS */
 
         .skill-item-logo {
             width: 25%;
@@ -904,6 +884,8 @@ p{
             font-size: 2.4rem;
             margin: 10px auto;
         }
+
+        /* CONTACT */
 
         #contact-container {
             width:66%;
@@ -916,7 +898,6 @@ p{
         #copyright{
             font-size: 2rem;
         }
-
 
         /* Thanks Page */
 
@@ -945,7 +926,13 @@ p{
 @media only screen
     and (min-device-width: 1024px)
     and (orientation: portrait){
+        
+        /* GLOBAL */
+        .section {
+            padding: 150px 0;
+        }
 
+        /* HEADER */
         #headline-container {
             left: 44px;
             top: 33px;
@@ -967,10 +954,8 @@ p{
             font-size: 5rem;
         }
 
-        .section {
-            padding: 150px 0;
-        }
 
+        /* PROJECTS */
         .work-sample-card-text {
             height: 90px;
         }
@@ -982,9 +967,8 @@ p{
             width:50%;
         }
 
-
+        /* SKILLS */
         .skill-item-text {
-            
             margin: 10px auto;
         }
 
@@ -1021,10 +1005,12 @@ p{
         and (orientation: landscape)
         and (-webkit-min-device-pixel-ratio: 2){
 
-
+        /* GLOBAL */
         .section {
             padding: 150px 0;
         }
+
+        /* HEADER */
 
         #jumbo-home{
             background: linear-gradient(
@@ -1058,11 +1044,13 @@ p{
             font-size: 5rem;
         }
 
+        /* ABOUT */
         #casey-portrait {
             margin:0 auto;
             max-width:300px;
         }
 
+        /* CONTACT */
         #contact-container {
             width:50%;
         }
@@ -1074,10 +1062,15 @@ p{
 @media screen 
   and (min-width: 1400px) { 
 
+    /* GLOBAL */
     .section {
         padding: 150px 0;
     }
  
+    .section-container {
+        width: 75%;
+    }
+
     #jumbo-home{
         background: linear-gradient(
         rgba(52, 152, 219, 0.7), 
@@ -1089,15 +1082,11 @@ p{
         background-repeat:no-repeat;
     }
 
-    .section-container {
-        width: 75%;
-    }
-
+    /* PROJECTS */
     .work-sample-card {
         margin-top: 100px;
         width:44%;
     }
-
 
     #more-projects-link,
     #back-to-projects-link  {
@@ -1105,7 +1094,6 @@ p{
         margin: 50px auto 0;
         width:50%;
     }
-
 
     #contact-container {
         max-width:600px;
