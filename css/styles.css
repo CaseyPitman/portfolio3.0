@@ -42,14 +42,12 @@ p{
 }
 
 .section{
-    background-color: lightblue;
     border-top: 1px solid rgb(44, 44, 44);
     padding: 50px 0;
 
 }
 
 .section-container {
-    background-color:tomato;
     margin: 0px auto;
     max-width:1200px;
     width:90%;
@@ -362,8 +360,6 @@ p{
 
 }
 
-
-
 /* Contact */
 #contact {
     background: linear-gradient(
@@ -609,9 +605,6 @@ p{
         line-height:1.25;
     }
 
-    .section-container{
-        background-color: lightgoldenrodyellow;
-    }
 
     #about-content-container {
         justify-content: space-between;
@@ -677,10 +670,6 @@ p{
             line-height:1.25;
         }
 
-        .section-container {
-            background-color: tan;
-        }
-
         .section-head {
             font-size: 4.8rem;
         }
@@ -726,10 +715,6 @@ p{
     #cursor3 {
         font-size: 4rem;
         line-height:1.25;
-    }
-
-    .section-container {
-        background-color: lightpink;
     }
 
     /* ABOUT */
@@ -865,11 +850,10 @@ p{
         }
 
         .section-container {
-            background-color: plum;
+            width:75%;
         }
 
         #about-content-container {
-
             justify-content: space-between;
          
         }
@@ -895,7 +879,7 @@ p{
         }
     
         .work-sample-card {
-            width: 40%;
+            width: 44%;
         }
 
         .work-sample-card-content {
@@ -987,10 +971,6 @@ p{
             padding: 150px 0;
         }
 
-        .section-container {
-            background-color: lightgray;
-        }
-
         .work-sample-card-text {
             height: 90px;
         }
@@ -1077,23 +1057,15 @@ p{
         #cursor3 {
             font-size: 5rem;
         }
-      
-        .section-container {
-            background-color: salmon;
-        }
 
-     
         #casey-portrait {
             margin:0 auto;
             max-width:300px;
         }
-        
 
         #contact-container {
             width:50%;
         }
-
-
 }
 
 /* LAPTOP  & DESKTOP */
@@ -1118,8 +1090,11 @@ p{
     }
 
     .section-container {
-        background-color: palegreen;
         width: 75%;
+    }
+
+    .work-sample-card {
+        width:44%;
     }
 
 
