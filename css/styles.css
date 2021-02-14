@@ -434,6 +434,14 @@ textarea {
   background-color: rgba(231, 76, 60);
 }
 
+#resume-download {
+  width: 70%;
+}
+
+#email-link:hover {
+  text-decoration: underline;
+}
+
 .contact-info {
   color: rgb(255, 255, 255);
   font-size: 2rem;
