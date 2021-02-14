@@ -239,7 +239,7 @@ textarea {
 
 .work-sample-card-text {
   font-size: 1.6rem;
-  height: 100px;
+  /* height: 100px; */
   margin: 10px auto;
 }
 
