@@ -239,13 +239,13 @@ textarea {
 
 .work-sample-card-text {
   font-size: 1.6rem;
-  /* height: 100px; */
+  height: 100px;
   margin: 10px auto;
 }
 
 .work-sample-card-title {
   color: rgba(231, 76, 60);
-  font-size: 2.6rem;
+  font-size: 2.2rem;
   font-weight: 300;
   margin: 0px auto;
   width: 100%;
@@ -259,7 +259,7 @@ textarea {
 .sample-tools {
   display: inline-block;
   margin: 0px 20px 0 0;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 700;
 }
 
@@ -299,6 +299,11 @@ textarea {
 .link-button:focus {
   background: rgba(231, 76, 60);
   color: white;
+  text-decoration: none;
+}
+
+#pokeapi-link {
+  color: rgba(231, 76, 60);
   text-decoration: none;
 }
 
